@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import { usePageReveals } from "@/lib/usePageReveals";
 
 const EMAIL = "matteo.ghigo@nestiveprod.com";
+const CC = "thenestivepro@gmail.com"; // copie sur cette adresse aussi
 const INSTAGRAM = "https://www.instagram.com/matteo.ghgo/";
 
 const inputCls =
@@ -18,35 +19,21 @@ export default function ContactView() {
   const [projet, setProjet] = useState("");
   const [date, setDate] = useState("");
   const [message, setMessage] = useState("");
-  const [website, setWebsite] = useState(""); // pot de miel anti-bot
-  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">(
-    "idle"
-  );
-  const [errorMsg, setErrorMsg] = useState("");
 
-  async function envoyer(e: React.FormEvent) {
+  function envoyer(e: React.FormEvent) {
     e.preventDefault();
-    if (status === "sending") return;
-    setStatus("sending");
-    setErrorMsg("");
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ nom, email, projet, date, message, website }),
-      });
-      const json = await res.json().catch(() => ({}));
-      if (!res.ok) throw new Error(json.error || "L'envoi a échoué.");
-      setStatus("sent");
-      setNom("");
-      setEmail("");
-      setProjet("");
-      setDate("");
-      setMessage("");
-    } catch (err) {
-      setStatus("error");
-      setErrorMsg(err instanceof Error ? err.message : "L'envoi a échoué.");
-    }
+    const subject = `Projet de ${nom || "nouveau contact"}`;
+    const lignes: string[] = [];
+    if (nom) lignes.push(`Nom : ${nom}`);
+    if (email) lignes.push(`Email : ${email}`);
+    if (projet) lignes.push(`Projet : ${projet}`);
+    if (date) lignes.push(`Date envisagée : ${date}`);
+    lignes.push("", message);
+    const body = lignes.join("\n");
+    // ouvre la messagerie du visiteur, adressée aux deux boîtes
+    window.location.href = `mailto:${EMAIL}?cc=${CC}&subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(body)}`;
   }
 
   return (
@@ -163,46 +150,16 @@ export default function ContactView() {
               required
             />
           </label>
-          {/* pot de miel anti-bot : invisible, non tabulable */}
-          <input
-            type="text"
-            name="website"
-            value={website}
-            onChange={(e) => setWebsite(e.target.value)}
-            tabIndex={-1}
-            autoComplete="off"
-            aria-hidden
-            className="hidden"
-          />
-
           <div className="md:col-span-2">
             <button
               type="submit"
-              disabled={status === "sending"}
-              className="t-caps-md cursor-pointer rounded-md border border-ink px-10 py-4 text-ink transition-colors hover:bg-ink hover:text-bg disabled:cursor-default disabled:opacity-50"
+              className="t-caps-md cursor-pointer rounded-md border border-ink px-10 py-4 text-ink transition-colors hover:bg-ink hover:text-bg"
             >
-              {status === "sending"
-                ? "Envoi en cours…"
-                : status === "sent"
-                  ? "Message envoyé ✓"
-                  : "Envoyer →"}
+              Envoyer&nbsp;→
             </button>
-            {status === "sent" && (
-              <p className="t-caps-md mt-4 text-ink">
-                Merci&nbsp;! Votre message a bien été envoyé, je reviens vers
-                vous rapidement.
-              </p>
-            )}
-            {status === "error" && (
-              <p className="t-caps-md mt-4 text-red">
-                {errorMsg} Vous pouvez aussi m&apos;écrire à {EMAIL}.
-              </p>
-            )}
-            {status !== "sent" && status !== "error" && (
-              <p className="t-caps mt-4 text-faint">
-                Réponse rapide, directement par email.
-              </p>
-            )}
+            <p className="t-caps mt-4 text-faint">
+              Le bouton ouvre votre messagerie avec le message pré-rempli.
+            </p>
           </div>
         </form>
       </section>
