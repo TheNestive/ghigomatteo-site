@@ -115,7 +115,7 @@ export default function Footer() {
             alt="Mainstage de Tomorrowland en pleine performance, par Ghigo Matteo"
             fill
             sizes="(max-width: 768px) 90vw, 240px"
-            quality={85}
+            quality={90}
             className="object-cover"
           />
         </div>
