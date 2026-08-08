@@ -1,0 +1,3899 @@
+[
+ {
+  "slug": "tomorrowland",
+  "category": "evenement",
+  "title": "Tomorrowland",
+  "label": "TOMORROWLAND",
+  "year": "2025",
+  "date": "2025",
+  "place": "",
+  "desc": "Tomorrowland — scènes démesurées, murs de lumière et foule à perte de vue. J’ai cherché à capturer l’ampleur du décor autant que l’intensité des sets.",
+  "link": {
+   "label": "tomorrowland.com",
+   "href": "https://www.tomorrowland.com/"
+  },
+  "cover": {
+   "src": "/photos/evenement/tomorrowland/TML-02.jpg",
+   "w": 1080,
+   "h": 1350,
+   "o": "p"
+  },
+  "images": [
+   {
+    "src": "/photos/evenement/tomorrowland/TML-02.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland/TML-03.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland/TML-08.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland/TML-13.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland/TML-06.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland/TML-05.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland/TML-07.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland/TML-01.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland/TML-04.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland/TML-09.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland/TML-10.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland/TML-11.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland/TML-12.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland/TML-14.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   }
+  ],
+  "coverAspect": "3/4",
+  "counts": {
+   "portrait": 14,
+   "landscape": 0,
+   "total": 14
+  },
+  "format": "portrait",
+  "altCover": {
+   "src": "/photos/evenement/tomorrowland/TML-05.jpg",
+   "w": 1080,
+   "h": 1350,
+   "o": "p"
+  }
+ },
+ {
+  "slug": "tomorrowland-winter",
+  "category": "evenement",
+  "title": "Tomorrowland Winter",
+  "label": "TOMORROWLAND WINTER",
+  "year": "2026",
+  "date": "Saison 2026",
+  "place": "Alpe d’Huez",
+  "desc": "J’ai eu l’occasion de shooter Tomorrowland Winter sur la saison 2026. Entre les scènes, les festivaliers, la direction artistique et les moments plus corporate, l’objectif était de capturer toute l’énergie de l’événement : un festival unique, entre montagne, musique et expériences de marque.",
+  "link": {
+   "label": "tomorrowland.com",
+   "href": "https://www.tomorrowland.com/"
+  },
+  "cover": {
+   "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA19.webp",
+   "w": 1707,
+   "h": 2560,
+   "o": "p",
+   "group": "L’atmosphère"
+  },
+  "coverAspect": "3/4",
+  "counts": {
+   "portrait": 45,
+   "landscape": 36,
+   "total": 81
+  },
+  "format": "mixed",
+  "images": [
+   {
+    "src": "/photos/evenement/tomorrowland-winter/hero-tmwl-winter.webp",
+    "w": 2560,
+    "h": 1440,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA07.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "L’atmosphère"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/01-activations-partenaires/Activation08.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Activations partenaires"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/02-scenes/Scene10.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Les scènes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/01-activations-partenaires/Activation10.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Activations partenaires"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/01-activations-partenaires/Activation09.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Activations partenaires"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/04-festivaliers/Festivaliers04.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Les festivaliers"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/02-scenes/Scene03.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Les scènes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA03.webp",
+    "w": 1947,
+    "h": 2560,
+    "o": "p",
+    "group": "L’atmosphère",
+    "hover": false
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/01-activations-partenaires/Activation02.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Activations partenaires",
+    "hover": false
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/01-activations-partenaires/Activation03.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Activations partenaires"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/01-activations-partenaires/Activation04.webp",
+    "w": 1706,
+    "h": 2560,
+    "o": "p",
+    "group": "Activations partenaires"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/01-activations-partenaires/Activation05.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Activations partenaires"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/01-activations-partenaires/Activation06.webp",
+    "w": 1439,
+    "h": 2560,
+    "o": "p",
+    "group": "Activations partenaires"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/01-activations-partenaires/Activation07.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Activations partenaires"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/01-activations-partenaires/Activation11.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Activations partenaires"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/01-activations-partenaires/Activation12.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Activations partenaires"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/01-activations-partenaires/Activation13.webp",
+    "w": 2560,
+    "h": 2383,
+    "o": "l",
+    "group": "Activations partenaires"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/01-activations-partenaires/Activation14.webp",
+    "w": 1825,
+    "h": 2560,
+    "o": "p",
+    "group": "Activations partenaires"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/01-activations-partenaires/Activation15.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Activations partenaires"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/01-activations-partenaires/Activation16.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Activations partenaires"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/01-activations-partenaires/Activation17.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Activations partenaires"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/01-activations-partenaires/Activation18.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Activations partenaires"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/01-activations-partenaires/Activation01.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Activations partenaires"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/02-scenes/Scene01.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Les scènes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/02-scenes/Scene02.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Les scènes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/02-scenes/Scene04.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Les scènes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/02-scenes/Scene05.webp",
+    "w": 2560,
+    "h": 2315,
+    "o": "l",
+    "group": "Les scènes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/02-scenes/Scene06.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Les scènes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/02-scenes/Scene07.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Les scènes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/02-scenes/Scene08.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Les scènes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/02-scenes/Scene09.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Les scènes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/02-scenes/Scene11.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Les scènes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/02-scenes/Scene12.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Les scènes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/02-scenes/Scene13.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Les scènes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/03-artistes/Artistes01.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Les artistes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/03-artistes/Artistes02.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Les artistes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/03-artistes/Artistes03.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Les artistes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/03-artistes/Artistes04.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Les artistes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/03-artistes/Artistes05.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Les artistes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/03-artistes/Artistes06.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Les artistes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/03-artistes/Artistes07.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Les artistes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/03-artistes/Artistes08.webp",
+    "w": 2504,
+    "h": 2560,
+    "o": "p",
+    "group": "Les artistes"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/04-festivaliers/Festivaliers01.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Les festivaliers"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/04-festivaliers/Festivaliers02.webp",
+    "w": 1439,
+    "h": 2560,
+    "o": "p",
+    "group": "Les festivaliers"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/04-festivaliers/Festivaliers03.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Les festivaliers"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/04-festivaliers/Festivaliers05.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Les festivaliers"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/04-festivaliers/Festivaliers06.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Les festivaliers"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/04-festivaliers/Festivaliers07.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Les festivaliers"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/04-festivaliers/Festivaliers08.webp",
+    "w": 1440,
+    "h": 2560,
+    "o": "p",
+    "group": "Les festivaliers"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/04-festivaliers/Festivaliers09.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Les festivaliers"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA01.webp",
+    "w": 1439,
+    "h": 2560,
+    "o": "p",
+    "group": "L’atmosphère"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA02.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "L’atmosphère"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA04.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "L’atmosphère"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA05.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "L’atmosphère"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA06.webp",
+    "w": 1979,
+    "h": 2560,
+    "o": "p",
+    "group": "L’atmosphère"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA08.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "L’atmosphère"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA09.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "L’atmosphère"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA10.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "L’atmosphère"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA11.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "L’atmosphère"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA12.webp",
+    "w": 2560,
+    "h": 2129,
+    "o": "l",
+    "group": "L’atmosphère"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA13.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "L’atmosphère"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA14.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "L’atmosphère"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA15.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "L’atmosphère"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA16.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "L’atmosphère"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA17.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "L’atmosphère"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA18.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "L’atmosphère"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA19.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "L’atmosphère"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA20.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "L’atmosphère"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA21.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "L’atmosphère"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/06-exemple-de-set/B2B01.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Exemple de set"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/06-exemple-de-set/B2B02.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Exemple de set"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/06-exemple-de-set/B2B03.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Exemple de set"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/06-exemple-de-set/B2B04.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Exemple de set"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/06-exemple-de-set/B2B05.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Exemple de set"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/06-exemple-de-set/B2B06.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Exemple de set"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/06-exemple-de-set/B2B07.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Exemple de set"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/06-exemple-de-set/B2B08.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Exemple de set"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/06-exemple-de-set/B2B09.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Exemple de set"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/06-exemple-de-set/B2B10.webp",
+    "w": 2560,
+    "h": 1707,
+    "o": "l",
+    "group": "Exemple de set"
+   },
+   {
+    "src": "/photos/evenement/tomorrowland-winter/06-exemple-de-set/B2B11.webp",
+    "w": 1707,
+    "h": 2560,
+    "o": "p",
+    "group": "Exemple de set"
+   }
+  ],
+  "altCover": {
+   "src": "/photos/evenement/tomorrowland-winter/05-atmosphere/DA11.webp",
+   "w": 1707,
+   "h": 2560,
+   "o": "p",
+   "group": "L’atmosphère"
+  },
+  "hidden": false
+ },
+ {
+  "slug": "theodora",
+  "category": "evenement",
+  "title": "Theodora",
+  "label": "THEODORA",
+  "year": "2025",
+  "date": "2025",
+  "place": "",
+  "desc": "Theodora sur scène, silhouette découpée dans un faisceau de lumière, costume à plumes et micro tendu. Une présence magnétique, presque sculpturale — un de mes shoots préférés de l’année.",
+  "link": {
+   "label": "@theodora",
+   "href": "https://www.instagram.com/theodora/"
+  },
+  "cover": {
+   "src": "/photos/evenement/theodora/THEODORA-01.jpg",
+   "w": 1080,
+   "h": 1350,
+   "o": "p"
+  },
+  "images": [
+   {
+    "src": "/photos/evenement/theodora/THEODORA-01.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/theodora/THEODORA-03.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/theodora/THEODORA-04.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/theodora/THEODORA-05.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/theodora/THEODORA-06.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/theodora/THEODORA-07.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/theodora/THEODORA-08.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/theodora/THEODORA-09.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/theodora/THEODORA-10.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/theodora/THEODORA-11.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/theodora/THEODORA-12.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/theodora/THEODORA-13.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/theodora/THEODORA-14.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/theodora/THEODORA-15.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/theodora/THEODORA-16.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/theodora/THEODORA-17.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   }
+  ],
+  "coverAspect": "3/4",
+  "counts": {
+   "portrait": 14,
+   "landscape": 2,
+   "total": 16
+  },
+  "format": "portrait"
+ },
+ {
+  "slug": "garorock",
+  "category": "evenement",
+  "title": "Garorock",
+  "label": "GAROROCK",
+  "year": "2025",
+  "date": "Édition 2025",
+  "place": "Marmande",
+  "desc": "Garorock 2025, c’était plus qu’un shoot. J’ai dirigé l’équipe photo du festival et capturé l’événement en parallèle. Une équipe talentueuse, une organisation fluide, une ambiance incroyable. Le genre d’expérience qui marque et qui montre qu’un festival, c’est autant les artistes que ceux qui le construisent.",
+  "link": {
+   "label": "garorock.com",
+   "href": "https://www.garorock.com/fr"
+  },
+  "cover": {
+   "src": "/photos/evenement/garorock/COVER__GAROROCK-1-scaled.jpg",
+   "w": 1600,
+   "h": 1280,
+   "o": "l"
+  },
+  "coverAspect": "4/3",
+  "counts": {
+   "portrait": 63,
+   "landscape": 48,
+   "total": 111
+  },
+  "format": "mixed",
+  "images": [
+   {
+    "src": "/photos/evenement/garorock/COVER__GAROROCK-1-scaled.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-1.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-2.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-3.jpg",
+    "w": 1600,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-4.jpg",
+    "w": 1600,
+    "h": 2845,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-5.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-6.jpg",
+    "w": 1600,
+    "h": 2846,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-7.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-8.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-9.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-10.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-11.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-12.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-13.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-14.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-15.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-16.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-17.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-18.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-19.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-20.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-21.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-22.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO3-scaled.jpg",
+    "w": 1600,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO4-1.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO4-2.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO4-3.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO4-4.jpg",
+    "w": 1600,
+    "h": 2846,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO4-5.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO4-6.jpg",
+    "w": 1600,
+    "h": 2846,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO4-7.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO4-8.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO4-9.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO4-10.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/GARO4-11.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/GAROROCK-2-scaled.jpg",
+    "w": 1600,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/GAROROCK-3-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/GAROROCK-4-scaled.jpg",
+    "w": 1600,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/GAROROCK-5.jpg",
+    "w": 1080,
+    "h": 1920,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/GAROROCK-6.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-01.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-02.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-03.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-04.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-05.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-06.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-07.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-08.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-09.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-10.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-11.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-12.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-13.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-14.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-15.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-16.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-17.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-18.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-19.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-20.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-21.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-22.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-23.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-24.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-25.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-26.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-27.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-28.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-29.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-30.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-31.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-32.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-33.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-34.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-35.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-36.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-37.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-38.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-39.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-40.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-41.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-42.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-43.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-44.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-45.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-46.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-47.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-48.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-49.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-50.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-51.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-52.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-53.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-54.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-55.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-56.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-57.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-58.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-59.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-60.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-61.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-62.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-63.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-64.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-65.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-66.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-67.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-68.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-69.jpg",
+    "w": 1333,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-70.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/garorock/BIGFLO-71.jpg",
+    "w": 2000,
+    "h": 1333,
+    "o": "l"
+   }
+  ],
+  "altCover": {
+   "src": "/photos/evenement/garorock/BIGFLO-71.jpg",
+   "w": 2000,
+   "h": 1333,
+   "o": "l"
+  }
+ },
+ {
+  "slug": "kungs",
+  "category": "evenement",
+  "title": "Kungs",
+  "label": "KUNGS",
+  "year": "2025",
+  "date": "2025",
+  "place": "",
+  "desc": "Kungs en solo derrière ses machines, silhouette découpée dans des lasers bleus parfaitement symétriques. Une esthétique minimale, nette et hypnotique.",
+  "link": {
+   "label": "@kungs",
+   "href": "https://www.instagram.com/kungs/"
+  },
+  "cover": {
+   "src": "/photos/evenement/kungs/Sans-titre-1-1.jpg",
+   "w": 1080,
+   "h": 1350,
+   "o": "p"
+  },
+  "images": [
+   {
+    "src": "/photos/evenement/kungs/Sans-titre-1-1.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/kungs/Axel-3-1.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/kungs/Axel-5-1.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/kungs/Kungz7-1.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/kungs/Axel-4-1.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/kungs/new-1.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/kungs/Axel-2-1.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   }
+  ],
+  "coverAspect": "3/4",
+  "counts": {
+   "portrait": 7,
+   "landscape": 0,
+   "total": 7
+  },
+  "format": "portrait"
+ },
+ {
+  "slug": "inherent-mike-horn",
+  "category": "corporate",
+  "title": "Inherent x Mike Horn",
+  "label": "INHERENT x MIKE HORN",
+  "year": "2025",
+  "date": "20 – 23 septembre 2025",
+  "place": "Futuroscope",
+  "desc": "Pour INHERENT x Mike Horn, j’ai couvert leurs séminaires au Futuroscope, avec des intervenants comme Mike Horn. Moments de partage, d’inspiration, et une énergie tournée vers l’action et la découverte.",
+  "link": {
+   "label": "inherent.fr",
+   "href": "https://inherent.fr/"
+  },
+  "cover": {
+   "src": "/photos/corporate/inherent-mike-horn/COVER__INHERENT2-9.jpg",
+   "w": 1600,
+   "h": 1976,
+   "o": "p"
+  },
+  "coverAspect": "3/4",
+  "counts": {
+   "portrait": 2,
+   "landscape": 23,
+   "total": 25
+  },
+  "format": "landscape",
+  "images": [
+   {
+    "src": "/photos/corporate/inherent-mike-horn/COVER__INHERENT2-9.jpg",
+    "w": 1600,
+    "h": 1976,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT2-1-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT2-2-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT2-3-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT2-4-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT2-5-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT2-6-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT2-7-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT2-8-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT2-11-scaled.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT2-13-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT2-14-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT2-15-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT2-16-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT2-17-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT2-18-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT2-19-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT2-20-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT-1-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT-2-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT-3-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT-4-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT-5-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT-7-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/inherent-mike-horn/INHERENT-8-scaled.jpg",
+    "w": 1439,
+    "h": 2560,
+    "o": "p"
+   }
+  ]
+ },
+ {
+  "slug": "riles",
+  "category": "evenement",
+  "title": "Rilès",
+  "label": "RILÈS",
+  "year": "2025",
+  "date": "Garorock 2025",
+  "place": "Marmande",
+  "desc": "Un de mes concerts préférés à shooter. Sur scène, Rilès mélange énergie, danse, précision et passion. Chaque photo raconte un mouvement.",
+  "link": {
+   "label": "@riles",
+   "href": "https://www.instagram.com/0riles/"
+  },
+  "cover": {
+   "src": "/photos/evenement/riles/COVER__Riles-4-scaled.jpg",
+   "w": 1600,
+   "h": 1280,
+   "o": "l"
+  },
+  "coverAspect": "4/3",
+  "counts": {
+   "portrait": 0,
+   "landscape": 6,
+   "total": 6
+  },
+  "format": "landscape",
+  "images": [
+   {
+    "src": "/photos/evenement/riles/COVER__Riles-4-scaled.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/riles/Riles-1-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/riles/Riles-2-scaled.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/riles/Riles-3-scaled.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/riles/Riles-5-scaled.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/riles/Riles-6-scaled.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   }
+  ]
+ },
+ {
+  "slug": "damso",
+  "category": "evenement",
+  "title": "Damso",
+  "label": "DAMSO",
+  "year": "2025",
+  "date": "Garorock 2025",
+  "place": "Marmande",
+  "desc": "J’ai shooté Damso à Garorock en 2025. J’ai réalisé un post dédié pour le festival, avec montage complet et retouches poussées pour restituer son ambiance sombre, précise et intense. Un artiste qui ne laisse jamais indifférent sur scène.",
+  "link": {
+   "label": "@thedamso",
+   "href": "https://www.instagram.com/thedamso/"
+  },
+  "cover": {
+   "src": "/photos/evenement/damso/COVER__damso-3.jpeg",
+   "w": 1080,
+   "h": 1350,
+   "o": "p"
+  },
+  "coverAspect": "3/4",
+  "counts": {
+   "portrait": 8,
+   "landscape": 0,
+   "total": 8
+  },
+  "format": "portrait",
+  "images": [
+   {
+    "src": "/photos/evenement/damso/COVER__damso-3.jpeg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/damso/damso-1.jpeg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/damso/damso-2.jpeg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/damso/damso-4.jpeg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/damso/damso-5.jpeg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/damso/damso-6.jpeg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/damso/damso-7.jpeg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/damso/damso-8.jpeg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   }
+  ]
+ },
+ {
+  "slug": "touquet",
+  "category": "evenement",
+  "title": "Touquet Music Beach",
+  "label": "TOUQUET",
+  "year": "2025",
+  "date": "25 & 26 août 2025",
+  "place": "Touquet Paris Plage",
+  "desc": "Le Touquet, c’est là où tout a réellement commencé pour moi. Mon tout premier grand festival en tant que photographe professionnel. J’y ai shooté Martin Garrix, Charlotte de Witte, Mosimann… des noms que je voyais jusque-là sur des affiches, et que je retrouvais soudain à quelques mètres, dans la lumière, en mouvement.\nJe me souviens encore du bruit, de la foule qui respire en un seul souffle, de la sensation d’être au centre d’un tourbillon sans jamais perdre le cadre. C’est dans ce chaos-là que j’ai trouvé une forme de calme, d’évidence.\nCe festival, c’est le moment où j’ai compris que ce n’était pas juste une passion : c’était ma direction.",
+  "link": {
+   "label": "touquetmusicbeach.com",
+   "href": "https://touquetmusicbeach.com/"
+  },
+  "cover": {
+   "src": "/photos/evenement/touquet/COVER__TOUQUETW-scaled.webp",
+   "w": 2560,
+   "h": 1440,
+   "o": "l"
+  },
+  "coverAspect": "4/3",
+  "counts": {
+   "portrait": 3,
+   "landscape": 8,
+   "total": 11
+  },
+  "format": "mixed",
+  "images": [
+   {
+    "src": "/photos/evenement/touquet/COVER__TOUQUETW-scaled.webp",
+    "w": 2560,
+    "h": 1440,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/touquet/TOUQUET2-1.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/touquet/TOUQUET2-2.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/touquet/TOUQUET2-3.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/touquet/TOUQUET2-4.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/touquet/TOUQUET2-5.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/touquet/TOUQUET2-6.jpg",
+    "w": 1600,
+    "h": 1194,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/touquet/Touquet-1-scaled.jpg",
+    "w": 1600,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/touquet/Touquet-4-scaled.jpg",
+    "w": 1600,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/touquet/Touquet-5.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/touquet/TOUQUETH-01.jpg",
+    "w": 2000,
+    "h": 1125,
+    "o": "l"
+   }
+  ],
+  "altCover": {
+   "src": "/photos/evenement/touquet/TOUQUETH-01.jpg",
+   "w": 2000,
+   "h": 1125,
+   "o": "l"
+  }
+ },
+ {
+  "slug": "ibiza",
+  "category": "lifestyle",
+  "title": "Ibiza",
+  "label": "IBIZA",
+  "year": "2024–2025",
+  "date": "2024 / 2025",
+  "place": "Ibiza, Espagne",
+  "desc": "J’ai travaillé sur des projets immobiliers haut de gamme à Ibiza. Architecture, lumière méditerranéenne, détails soignés. Un décor où chaque photo devient une invitation.",
+  "link": null,
+  "cover": {
+   "src": "/photos/lifestyle/ibiza/COVER__IBIZA-19-scaled.jpg",
+   "w": 1600,
+   "h": 1198,
+   "o": "l"
+  },
+  "coverAspect": "4/3",
+  "counts": {
+   "portrait": 1,
+   "landscape": 14,
+   "total": 15
+  },
+  "format": "landscape",
+  "images": [
+   {
+    "src": "/photos/lifestyle/ibiza/COVER__IBIZA-19-scaled.jpg",
+    "w": 1600,
+    "h": 1198,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/ibiza/IBIZA-1-scaled.jpg",
+    "w": 1600,
+    "h": 1198,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/ibiza/IBIZA-2-scaled.jpg",
+    "w": 1600,
+    "h": 1198,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/ibiza/IBIZA-3-scaled.jpg",
+    "w": 1600,
+    "h": 1198,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/ibiza/IBIZA-4-scaled.jpg",
+    "w": 1600,
+    "h": 1198,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/ibiza/IBIZA-5-scaled.jpg",
+    "w": 1600,
+    "h": 1198,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/ibiza/IBIZA-8-scaled.jpg",
+    "w": 1600,
+    "h": 1067,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/ibiza/IBIZA-11-scaled.jpg",
+    "w": 1600,
+    "h": 1067,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/ibiza/IBIZA-12-scaled.jpg",
+    "w": 1600,
+    "h": 1067,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/ibiza/IBIZA-13-scaled.jpg",
+    "w": 1600,
+    "h": 1067,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/ibiza/IBIZA-14-scaled.jpg",
+    "w": 1600,
+    "h": 1067,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/ibiza/IBIZA-15-scaled.jpg",
+    "w": 1600,
+    "h": 974,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/ibiza/IBIZA-16-scaled.jpg",
+    "w": 1600,
+    "h": 2400,
+    "o": "p"
+   },
+   {
+    "src": "/photos/lifestyle/ibiza/IBIZA-17-scaled.jpg",
+    "w": 1600,
+    "h": 1067,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/ibiza/IBIZA-18-scaled.jpg",
+    "w": 1600,
+    "h": 1067,
+    "o": "l"
+   }
+  ]
+ },
+ {
+  "slug": "ascendant-vierge",
+  "category": "evenement",
+  "title": "Ascendant Vierge",
+  "label": "ASCENDANT VIERGE",
+  "year": "2025",
+  "date": "26 & 27 septembre 2025",
+  "place": "Paris",
+  "desc": "J’ai eu l’occasion de shooter Ascendant Vierge à Paris. Leur univers m’a littéralement ouvert les portes de la techno. Visuellement, leur esthétique est très forte, presque cinématographique, ce qui rend chaque photo vivante et intense. C’était un but que j’avais depuis longtemps et que j’ai atteint cette année 2025.",
+  "link": {
+   "label": "@ascendantvierge",
+   "href": "https://www.instagram.com/ascendantvierge/"
+  },
+  "cover": {
+   "src": "/photos/evenement/ascendant-vierge/COVER__Ascendant-vierge-4.jpg",
+   "w": 1350,
+   "h": 1080,
+   "o": "l"
+  },
+  "coverAspect": "4/3",
+  "counts": {
+   "portrait": 0,
+   "landscape": 9,
+   "total": 9
+  },
+  "format": "landscape",
+  "images": [
+   {
+    "src": "/photos/evenement/ascendant-vierge/Ascendant-vierge-1.jpg",
+    "w": 1350,
+    "h": 1080,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/ascendant-vierge/Ascendant-vierge-2.jpg",
+    "w": 1350,
+    "h": 1080,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/ascendant-vierge/Ascendant-vierge-3.jpg",
+    "w": 1350,
+    "h": 1080,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/ascendant-vierge/Ascendant-vierge-5.jpg",
+    "w": 1350,
+    "h": 1080,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/ascendant-vierge/Ascendant-vierge-6.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/ascendant-vierge/Ascendant-vierge-7.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/ascendant-vierge/Ascendant-vierge-8.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/ascendant-vierge/Ascendant-vierge-9.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/ascendant-vierge/COVER__Ascendant-vierge-4.jpg",
+    "w": 1350,
+    "h": 1080,
+    "o": "l"
+   }
+  ]
+ },
+ {
+  "slug": "delta-festival",
+  "category": "evenement",
+  "title": "Delta Festival",
+  "label": "DELTA FESTIVAL",
+  "year": "2024–2025",
+  "date": "Éditions 2024 & 2025",
+  "place": "Marseille",
+  "desc": "Au Delta Festival, j’ai couvert les éditions 2024 et 2025 : en 2024 avec des artistes comme Gazo, Tiakola, Feder… puis en 2025 avec SDM, Tayc et d’autres. Une scène ouverte sur la mer, une foule solaire, et des contrastes entre rap, pop et électro qui rendent chaque instant ultra visuel.",
+  "link": {
+   "label": "delta-festival.com",
+   "href": "https://www.delta-festival.com/"
+  },
+  "cover": {
+   "src": "/photos/evenement/delta-festival/COVER__DELTA-2024-2-scaled.jpg",
+   "w": 1600,
+   "h": 2400,
+   "o": "p"
+  },
+  "coverAspect": "3/4",
+  "counts": {
+   "portrait": 7,
+   "landscape": 11,
+   "total": 18
+  },
+  "format": "mixed",
+  "images": [
+   {
+    "src": "/photos/evenement/delta-festival/COVER__DELTA-2024-2-scaled.jpg",
+    "w": 1600,
+    "h": 2400,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/delta-festival/DELTA2-1.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/delta-festival/DELTA2-2-scaled.jpg",
+    "w": 1600,
+    "h": 2400,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/delta-festival/DELTA2-3-scaled.jpg",
+    "w": 1600,
+    "h": 1067,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/delta-festival/DELTA2-4-scaled.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/delta-festival/DELTA2-5-scaled.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/delta-festival/DELTA2-6-scaled.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/delta-festival/DELTA2-7-scaled.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/delta-festival/DELTA2-8-scaled.jpg",
+    "w": 1440,
+    "h": 2560,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/delta-festival/DELTA2-9-scaled.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/delta-festival/DELTA2-10-scaled.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/delta-festival/DELTA-2024-1.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/delta-festival/DELTA-2024-5-scaled.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/delta-festival/DELTA-2024-7.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/delta-festival/DELTA-2024-8-scaled.jpg",
+    "w": 1600,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/delta-festival/DELTA-2024-10-scaled.jpg",
+    "w": 1600,
+    "h": 1326,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/delta-festival/DELTA-2025-2-scaled.jpg",
+    "w": 1600,
+    "h": 1067,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/delta-festival/DELTA-2025-3-scaled.jpg",
+    "w": 1600,
+    "h": 1067,
+    "o": "l"
+   }
+  ]
+ },
+ {
+  "slug": "mykonos",
+  "category": "lifestyle",
+  "title": "Mykonos",
+  "label": "MYKONOS",
+  "year": "2024",
+  "date": "2024",
+  "place": "Mykonos, Grèce",
+  "desc": "J’ai eu la chance de suivre un groupe d’influenceurs américains à Mykonos, entre jet privé, yacht, soirées privées et villas perchées sur la mer. Un reportage lifestyle entre luxe et spontanéité.",
+  "link": null,
+  "cover": {
+   "src": "/photos/lifestyle/mykonos/COVER__Mykonos-2.jpg",
+   "w": 1600,
+   "h": 2452,
+   "o": "p"
+  },
+  "coverAspect": "3/4",
+  "counts": {
+   "portrait": 6,
+   "landscape": 2,
+   "total": 8
+  },
+  "format": "mixed",
+  "images": [
+   {
+    "src": "/photos/lifestyle/mykonos/COVER__Mykonos-2.jpg",
+    "w": 1600,
+    "h": 2452,
+    "o": "p"
+   },
+   {
+    "src": "/photos/lifestyle/mykonos/Mykonos-1.jpg",
+    "w": 1600,
+    "h": 2400,
+    "o": "p"
+   },
+   {
+    "src": "/photos/lifestyle/mykonos/Mykonos-3.jpg",
+    "w": 1600,
+    "h": 2662,
+    "o": "p"
+   },
+   {
+    "src": "/photos/lifestyle/mykonos/Mykonos-4.jpg",
+    "w": 1600,
+    "h": 2400,
+    "o": "p"
+   },
+   {
+    "src": "/photos/lifestyle/mykonos/Mykonos-5.jpg",
+    "w": 1600,
+    "h": 2400,
+    "o": "p"
+   },
+   {
+    "src": "/photos/lifestyle/mykonos/Mykonos-6.jpg",
+    "w": 1600,
+    "h": 2400,
+    "o": "p"
+   },
+   {
+    "src": "/photos/lifestyle/mykonos/Mykonos-7.jpg",
+    "w": 1600,
+    "h": 1067,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/mykonos/Mykonos-8.jpg",
+    "w": 1600,
+    "h": 1198,
+    "o": "l"
+   }
+  ]
+ },
+ {
+  "slug": "f1-monza",
+  "category": "lifestyle",
+  "title": "Monza x Wizards",
+  "label": "F1 MONZA",
+  "year": "2025",
+  "date": "2025",
+  "place": "Monza, Italie",
+  "desc": "On a suivi Wizards, une figure de la crypto, pour créer du contenu photo, vidéo et drone sur le mythique circuit de Monza, en Italie. Vitesse, mécanique, histoire. Un décor où tout paraît plus grand.",
+  "link": {
+   "label": "@wizardofsoho",
+   "href": "https://x.com/wizardofsoho"
+  },
+  "cover": {
+   "src": "/photos/lifestyle/f1-monza/COVER__F1-MONZA-7.webp",
+   "w": 2048,
+   "h": 1534,
+   "o": "l"
+  },
+  "coverAspect": "4/3",
+  "counts": {
+   "portrait": 4,
+   "landscape": 9,
+   "total": 13
+  },
+  "format": "mixed",
+  "images": [
+   {
+    "src": "/photos/lifestyle/f1-monza/COVER__F1-MONZA-7.webp",
+    "w": 2048,
+    "h": 1534,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/f1-monza/F1-MONZA-1-scaled.jpeg",
+    "w": 1600,
+    "h": 2400,
+    "o": "p"
+   },
+   {
+    "src": "/photos/lifestyle/f1-monza/F1-MONZA-4.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/lifestyle/f1-monza/F1-MONZA-5.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/lifestyle/f1-monza/MONZA-1.jpg",
+    "w": 1600,
+    "h": 1066,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/f1-monza/MONZA-2.jpg",
+    "w": 1600,
+    "h": 1066,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/f1-monza/MONZA-3.jpg",
+    "w": 1600,
+    "h": 1066,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/f1-monza/MONZA-4.jpg",
+    "w": 1600,
+    "h": 1066,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/f1-monza/MONZA-5.jpg",
+    "w": 1600,
+    "h": 1066,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/f1-monza/MONZA-6.jpg",
+    "w": 1600,
+    "h": 1066,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/f1-monza/MONZA-7.jpg",
+    "w": 1365,
+    "h": 2048,
+    "o": "p"
+   },
+   {
+    "src": "/photos/lifestyle/f1-monza/MONZA-8.jpg",
+    "w": 1600,
+    "h": 1066,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/f1-monza/MONZA-9.jpg",
+    "w": 1600,
+    "h": 1066,
+    "o": "l"
+   }
+  ]
+ },
+ {
+  "slug": "francis-mercier",
+  "category": "evenement",
+  "title": "Francis Mercier",
+  "label": "FRANCIS MERCIER",
+  "year": "2024",
+  "date": "12 juillet 2024",
+  "place": "La Clairière, Paris",
+  "desc": "J’ai shooté Francis Mercier en 2024 à La Clairière. Une soirée pleine de groove et de chaleur, dans un cadre en pleine nature. J’ai pu y capturer une de mes photos préférées avec toutes ces bulles.",
+  "link": {
+   "label": "@francismercier",
+   "href": "https://www.instagram.com/francismercier/"
+  },
+  "cover": {
+   "src": "/photos/evenement/francis-mercier/COVER__Francis-mercier-5.jpg",
+   "w": 1080,
+   "h": 1350,
+   "o": "p"
+  },
+  "coverAspect": "3/4",
+  "counts": {
+   "portrait": 8,
+   "landscape": 0,
+   "total": 8
+  },
+  "format": "portrait",
+  "images": [
+   {
+    "src": "/photos/evenement/francis-mercier/COVER__Francis-mercier-5.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/francis-mercier/Francis-mercier-1.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/francis-mercier/Francis-mercier-2.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/francis-mercier/Francis-mercier-3.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/francis-mercier/Francis-mercier-4.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/francis-mercier/Francis-mercier-6.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/francis-mercier/Francis-mercier-7.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/francis-mercier/Francis-mercier-8.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   }
+  ]
+ },
+ {
+  "slug": "dreamnation",
+  "category": "evenement",
+  "title": "Dreamnation",
+  "label": "DREAMNATION",
+  "year": "2025",
+  "date": "26 & 27 septembre 2025",
+  "place": "Paris Nord",
+  "desc": "J’ai travaillé sur Dreamnation en 2025 grâce à Maison Guettapen, collectif de photographes spécialisé dans les événements électro. Ambiance industrielle, raves, lasers, basses qui résonnent jusque dans les os. Une vraie expérience sensorielle.",
+  "link": {
+   "label": "dreamnation.fr",
+   "href": "https://dreamnation.fr/"
+  },
+  "cover": {
+   "src": "/photos/evenement/dreamnation/COVER__DREAMNATION2-5.jpg",
+   "w": 1600,
+   "h": 1280,
+   "o": "l"
+  },
+  "coverAspect": "4/3",
+  "counts": {
+   "portrait": 3,
+   "landscape": 11,
+   "total": 14
+  },
+  "format": "mixed",
+  "images": [
+   {
+    "src": "/photos/evenement/dreamnation/COVER__DREAMNATION2-5.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/dreamnation/DREAMNATION2-1.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/dreamnation/DREAMNATION2-2.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/dreamnation/DREAMNATION2-3.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/dreamnation/DREAMNATION2-4.jpg",
+    "w": 1080,
+    "h": 1920,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/dreamnation/DREAMNATION2-6.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/dreamnation/DREAMNATION-1.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/dreamnation/DREAMNATION-2.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/dreamnation/DREAMNATION-3.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/dreamnation/DREAMNATION-4.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/dreamnation/DREAMNATION-5.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/dreamnation/DREAMNATION-6.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/dreamnation/DREAMNATION-7.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/dreamnation/DREAMNATION-8.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   }
+  ]
+ },
+ {
+  "slug": "sdm",
+  "category": "evenement",
+  "title": "SDM",
+  "label": "SDM",
+  "year": "2025",
+  "date": "Delta Festival 2025",
+  "place": "Marseille",
+  "desc": "SDM fait partie de mes rappeurs préférés, alors le shooter au Delta avait une saveur particulière. Un moment fort, personnel, intense.",
+  "link": {
+   "label": "@sdm__92",
+   "href": "https://www.instagram.com/sdm__92/"
+  },
+  "cover": {
+   "src": "/photos/evenement/sdm/COVER__SDM-1.jpeg",
+   "w": 1080,
+   "h": 1350,
+   "o": "p"
+  },
+  "coverAspect": "3/4",
+  "counts": {
+   "portrait": 10,
+   "landscape": 0,
+   "total": 10
+  },
+  "format": "portrait",
+  "images": [
+   {
+    "src": "/photos/evenement/sdm/COVER__SDM-1.jpeg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/sdm/SDM-2.jpeg",
+    "w": 1070,
+    "h": 1439,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/sdm/SDM-3.jpeg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/sdm/SDM-4.jpeg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/sdm/SDM-5.jpeg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/sdm/SDM-6.jpeg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/sdm/SDM-7.jpeg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/sdm/SDM-8.jpeg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/sdm/SDM-9.jpeg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/sdm/SDM-10.jpeg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   }
+  ]
+ },
+ {
+  "slug": "j-balvin",
+  "category": "evenement",
+  "title": "J Balvin",
+  "label": "J BALVIN",
+  "year": "2025",
+  "date": "Garorock 2025",
+  "place": "Marmande",
+  "desc": "J’ai eu l’opportunité de shooter J Balvin en 2025, à un moment important pour moi. C’était la première fois que je travaillais avec un artiste international de cette envergure. J’ai choisi un traitement colorimétrique alternant le bleu et le rouge pour suivre son univers visuel vibrant, très dynamique, presque pop futuriste. Ce shoot a marqué un cap pour moi : celui où tu comprends que tu as franchi une étape dans ta trajectoire.",
+  "link": {
+   "label": "@jbalvin",
+   "href": "https://www.instagram.com/jbalvin/"
+  },
+  "cover": {
+   "src": "/photos/evenement/j-balvin/COVER__J-balvin-6.jpg",
+   "w": 1080,
+   "h": 1350,
+   "o": "p"
+  },
+  "coverAspect": "3/4",
+  "counts": {
+   "portrait": 6,
+   "landscape": 1,
+   "total": 7
+  },
+  "format": "portrait",
+  "images": [
+   {
+    "src": "/photos/evenement/j-balvin/COVER__J-balvin-6.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/j-balvin/J-balvin-1.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/j-balvin/J-balvin-2.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/j-balvin/J-balvin-3.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/j-balvin/J-balvin-4.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/j-balvin/J-balvin-5.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/j-balvin/JBALVINH-01.jpg",
+    "w": 1350,
+    "h": 1080,
+    "o": "l"
+   }
+  ],
+  "altCover": {
+   "src": "/photos/evenement/j-balvin/JBALVINH-01.jpg",
+   "w": 1350,
+   "h": 1080,
+   "o": "l"
+  }
+ },
+ {
+  "slug": "i-hate-models",
+  "category": "evenement",
+  "title": "I Hate Models",
+  "label": "I HATE MODELS",
+  "year": "2025",
+  "date": "Garorock 2025",
+  "place": "Marmande",
+  "desc": "J’ai shooté I Hate Models en 2025 sur la scène CTRL B. Une intensité sombre, métallique, hypnotique. Un artiste où l’image raconte autant que le son.",
+  "link": {
+   "label": "@ihatemodels1",
+   "href": "https://www.instagram.com/ihatemodels1/"
+  },
+  "cover": {
+   "src": "/photos/evenement/i-hate-models/COVER__I-hate-models-3.jpg",
+   "w": 1350,
+   "h": 1080,
+   "o": "l"
+  },
+  "coverAspect": "4/3",
+  "counts": {
+   "portrait": 0,
+   "landscape": 8,
+   "total": 8
+  },
+  "format": "landscape",
+  "images": [
+   {
+    "src": "/photos/evenement/i-hate-models/COVER__I-hate-models-3.jpg",
+    "w": 1350,
+    "h": 1080,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/i-hate-models/I-hate-models-1.jpg",
+    "w": 1350,
+    "h": 1080,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/i-hate-models/I-hate-models-2.jpg",
+    "w": 1350,
+    "h": 1080,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/i-hate-models/I-hate-models-4.jpg",
+    "w": 1350,
+    "h": 1080,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/i-hate-models/I-hate-models-5.jpg",
+    "w": 1350,
+    "h": 1080,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/i-hate-models/I-hate-models-6.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/i-hate-models/I-hate-models-7.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/i-hate-models/I-hate-models-8.jpg",
+    "w": 1350,
+    "h": 1080,
+    "o": "l"
+   }
+  ]
+ },
+ {
+  "slug": "gazo",
+  "category": "evenement",
+  "title": "Gazo",
+  "label": "GAZO",
+  "year": "2024",
+  "date": "5 septembre 2024",
+  "place": "Marseille",
+  "desc": "Un des moments les plus explosifs du Delta 2024. Une énergie brute sur scène, un public en fusion, et une intensité qui ne laisse aucune place au hasard.",
+  "link": {
+   "label": "@gazo_officiel",
+   "href": "https://www.instagram.com/gazo_officiel/"
+  },
+  "cover": {
+   "src": "/photos/evenement/gazo/COVER__gazo-4.jpg",
+   "w": 1080,
+   "h": 1350,
+   "o": "p"
+  },
+  "coverAspect": "3/4",
+  "counts": {
+   "portrait": 6,
+   "landscape": 0,
+   "total": 6
+  },
+  "format": "portrait",
+  "images": [
+   {
+    "src": "/photos/evenement/gazo/COVER__gazo-4.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/gazo/gazo-1.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/gazo/gazo-2.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/gazo/gazo-3.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/gazo/gazo-5.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/gazo/gazo-6.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   }
+  ]
+ },
+ {
+  "slug": "tiakola",
+  "category": "evenement",
+  "title": "Tiakola",
+  "label": "TIAKOLA",
+  "year": "2024",
+  "date": "Delta Festival 2024",
+  "place": "Marseille",
+  "desc": "Tiakola à Marseille en 2024, c’était la douceur mélangée à la fête. Une connexion forte avec le public, des refrains chantés à l’unisson.",
+  "link": null,
+  "cover": {
+   "src": "/photos/evenement/tiakola/COVER__Tiakola-7.jpg",
+   "w": 1080,
+   "h": 1350,
+   "o": "p"
+  },
+  "coverAspect": "3/4",
+  "counts": {
+   "portrait": 8,
+   "landscape": 0,
+   "total": 8
+  },
+  "format": "portrait",
+  "images": [
+   {
+    "src": "/photos/evenement/tiakola/COVER__Tiakola-7.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tiakola/Tiakola-1.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tiakola/Tiakola-2.jpg",
+    "w": 1600,
+    "h": 2400,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tiakola/Tiakola-3.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tiakola/Tiakola-4.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tiakola/Tiakola-5.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tiakola/Tiakola-6.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tiakola/Tiakola-8.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   }
+  ]
+ },
+ {
+  "slug": "vladimir-cauchemar",
+  "category": "evenement",
+  "title": "Vladimir Cauchemar",
+  "label": "VLADIMIR CAUCHEMAR",
+  "year": "2024–2025",
+  "date": "2024 / 2025",
+  "place": "Bordeaux · Paris · Marseille · Lyon",
+  "desc": "J’ai réalisé un best-of de Vlad, car je l’ai shooté dans plein de villes : Bordeaux, Paris, Marseille, Lyon… Toujours une direction artistique forte, une énergie tranchante. Un artiste passionnant à suivre.",
+  "link": {
+   "label": "@vladimircauchemar",
+   "href": "https://www.instagram.com/vladimircauchemar/"
+  },
+  "cover": {
+   "src": "/photos/evenement/vladimir-cauchemar/COVER__VLAD-1.jpg",
+   "w": 1080,
+   "h": 1350,
+   "o": "p"
+  },
+  "coverAspect": "3/4",
+  "counts": {
+   "portrait": 4,
+   "landscape": 0,
+   "total": 4
+  },
+  "format": "portrait",
+  "images": [
+   {
+    "src": "/photos/evenement/vladimir-cauchemar/COVER__VLAD-1.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/vladimir-cauchemar/VLAD-2.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/vladimir-cauchemar/VLAD-3.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/vladimir-cauchemar/VLAD-4.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   }
+  ]
+ },
+ {
+  "slug": "abu-dhabi",
+  "category": "corporate",
+  "title": "Experience Abu Dhabi",
+  "label": "EXPERIENCE ABU DHABI",
+  "year": "2025",
+  "date": "Août 2025",
+  "place": "Nice, France",
+  "desc": "J’ai couvert un événement corporate sur le thème « Experience Abu Dhabi », organisé à Nice. De grandes marques et entreprises liées à cette destination mythique étaient présentes. Networking, échanges et repas se sont enchaînés sur le rooftop emblématique de l’hôtel Le Victoria.",
+  "link": null,
+  "cover": {
+   "src": "/photos/corporate/abu-dhabi/COVER__abudabi-1-scaled.jpg",
+   "w": 1600,
+   "h": 899,
+   "o": "l"
+  },
+  "coverAspect": "4/3",
+  "counts": {
+   "portrait": 4,
+   "landscape": 23,
+   "total": 27
+  },
+  "format": "landscape",
+  "images": [
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-2-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-3-scaled.jpg",
+    "w": 1439,
+    "h": 2560,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-4-scaled.jpg",
+    "w": 1600,
+    "h": 1008,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-5-scaled.jpg",
+    "w": 1600,
+    "h": 1004,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-6-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-7-scaled.jpg",
+    "w": 1600,
+    "h": 1131,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-8-scaled.jpg",
+    "w": 1600,
+    "h": 926,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-9-scaled.jpg",
+    "w": 1600,
+    "h": 1693,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-10-scaled.jpg",
+    "w": 1600,
+    "h": 1049,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-11-scaled.jpg",
+    "w": 1439,
+    "h": 2560,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-12-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-13-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-14-scaled.jpg",
+    "w": 1439,
+    "h": 2560,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-15-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-16-scaled.jpg",
+    "w": 1600,
+    "h": 1240,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-17-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-18-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-19-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-20-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-21-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-22-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-23-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-24-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-25-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-26-scaled.jpg",
+    "w": 1600,
+    "h": 1198,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/abudabi-27-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/abu-dhabi/COVER__abudabi-1-scaled.jpg",
+    "w": 1600,
+    "h": 899,
+    "o": "l"
+   }
+  ]
+ },
+ {
+  "slug": "major-lazer",
+  "category": "evenement",
+  "title": "Major Lazer",
+  "label": "MAJOR LAZER",
+  "year": "2025",
+  "date": "2025",
+  "place": "",
+  "desc": "Major Lazer sur scène — un show explosif capté entre fumée orange, lasers et énergie brute. L’aftermovie vidéo arrive très bientôt.",
+  "link": {
+   "label": "@majorlazer",
+   "href": "https://www.instagram.com/majorlazer/"
+  },
+  "cover": {
+   "src": "/photos/evenement/major-lazer/MAJORLAZER-01.jpg",
+   "w": 1080,
+   "h": 1350,
+   "o": "p"
+  },
+  "images": [
+   {
+    "src": "/photos/evenement/major-lazer/MAJORLAZER-01.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   }
+  ],
+  "video": {
+   "placeholder": true,
+   "label": "Aftermovie à venir"
+  },
+  "coverAspect": "3/4",
+  "counts": {
+   "portrait": 1,
+   "landscape": 0,
+   "total": 1
+  },
+  "format": "portrait",
+  "hidden": true
+ },
+ {
+  "slug": "dj-snake",
+  "category": "evenement",
+  "title": "DJ Snake x Netflix",
+  "label": "DJ SNAKE",
+  "year": "2025",
+  "date": "Garorock 2025",
+  "place": "Marmande",
+  "desc": "J’ai eu la chance de shooter DJ Snake, en grande partie au drone. Son équipe avait besoin de contenus photos et vidéos, et j’ai pu capturer l’ampleur du show vue du ciel. Un moment suspendu dans la lumière et la foule. D’autant plus fort que c’était pour le set de présentation de ses sons réalisés en collaboration avec Netflix pour la série Squid Game.",
+  "link": {
+   "label": "@djsnake",
+   "href": "https://www.instagram.com/djsnake/"
+  },
+  "cover": {
+   "src": "/photos/evenement/dj-snake/COVER__DJ-SNAKE-2.jpeg",
+   "w": 1600,
+   "h": 1280,
+   "o": "l"
+  },
+  "coverAspect": "4/3",
+  "counts": {
+   "portrait": 0,
+   "landscape": 3,
+   "total": 3
+  },
+  "format": "landscape",
+  "images": [
+   {
+    "src": "/photos/evenement/dj-snake/COVER__DJ-SNAKE-2.jpeg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/dj-snake/DJ-SNAKE-1-scaled.jpeg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/dj-snake/DJ-SNAKE-1.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   }
+  ],
+  "hidden": true
+ },
+ {
+  "slug": "tayc",
+  "category": "evenement",
+  "title": "Tayc",
+  "label": "TAYC",
+  "year": "2025",
+  "date": "Delta Festival 2025",
+  "place": "Marseille",
+  "desc": "Tayc, c’est l’élégance sur scène. Une présence douce mais marquante, une mise en scène pensée, une aura qui se prête bien aux images.",
+  "link": {
+   "label": "@tayc",
+   "href": "https://www.instagram.com/tayc/"
+  },
+  "cover": {
+   "src": "/photos/evenement/tayc/COVER__TAYC-9.jpg",
+   "w": 1080,
+   "h": 1350,
+   "o": "p"
+  },
+  "coverAspect": "3/4",
+  "counts": {
+   "portrait": 12,
+   "landscape": 0,
+   "total": 12
+  },
+  "format": "portrait",
+  "images": [
+   {
+    "src": "/photos/evenement/tayc/COVER__TAYC-9.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tayc/TAYC-1.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tayc/TAYC-2.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tayc/TAYC-3.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tayc/TAYC-4.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tayc/TAYC-5.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tayc/TAYC-6.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tayc/TAYC-7.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tayc/TAYC-8.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tayc/TAYC-10.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tayc/TAYC-11.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/tayc/TAYC-12.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   }
+  ],
+  "hidden": true
+ },
+ {
+  "slug": "stereoparc",
+  "category": "evenement",
+  "title": "Stereoparc",
+  "label": "STEREOPARC",
+  "year": "2024",
+  "date": "19 & 20 juillet 2024",
+  "place": "Rochefort",
+  "desc": "Stereoparc 2024 à Rochefort, scènes électro au pied de la Corderie Royale, lumière d’été et nuits saturées.",
+  "link": {
+   "label": "stereoparc.com",
+   "href": "https://stereoparc.com/"
+  },
+  "cover": {
+   "src": "/photos/evenement/stereoparc/COVER__STEREO-8-scaled.jpg",
+   "w": 1600,
+   "h": 2000,
+   "o": "p"
+  },
+  "coverAspect": "3/4",
+  "counts": {
+   "portrait": 10,
+   "landscape": 7,
+   "total": 17
+  },
+  "format": "mixed",
+  "images": [
+   {
+    "src": "/photos/evenement/stereoparc/COVER__STEREO-8-scaled.jpg",
+    "w": 1600,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/stereoparc/STEREO2-1-scaled.jpg",
+    "w": 1600,
+    "h": 2400,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/stereoparc/STEREO2-2-scaled.jpg",
+    "w": 1600,
+    "h": 1293,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/stereoparc/STEREO2-3-scaled.jpg",
+    "w": 1600,
+    "h": 1067,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/stereoparc/STEREO2-4-scaled.jpg",
+    "w": 1600,
+    "h": 2400,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/stereoparc/STEREO2-5-scaled.jpg",
+    "w": 1600,
+    "h": 2400,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/stereoparc/STEREO2-6-scaled.jpg",
+    "w": 1600,
+    "h": 2237,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/stereoparc/STEREO-1-scaled.jpg",
+    "w": 1600,
+    "h": 1067,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/stereoparc/STEREO-2.jpg",
+    "w": 1600,
+    "h": 1066,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/stereoparc/STEREO-3.jpg",
+    "w": 1600,
+    "h": 1066,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/stereoparc/STEREO-4.jpg",
+    "w": 1600,
+    "h": 1066,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/stereoparc/STEREO-5.jpg",
+    "w": 1600,
+    "h": 1066,
+    "o": "l"
+   },
+   {
+    "src": "/photos/evenement/stereoparc/STEREO-6.jpg",
+    "w": 1365,
+    "h": 2048,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/stereoparc/STEREO-7.jpg",
+    "w": 1600,
+    "h": 1642,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/stereoparc/STEREO-9.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/stereoparc/STEREO-10.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/stereoparc/STEREO-11-scaled.jpg",
+    "w": 1600,
+    "h": 2000,
+    "o": "p"
+   }
+  ],
+  "hidden": true
+ },
+ {
+  "slug": "salon-de-la-patisserie",
+  "category": "corporate",
+  "title": "Salon de la Pâtisserie",
+  "label": "SALON DE LA PÂTISSERIE",
+  "year": "2024",
+  "date": "19 – 21 juin 2024",
+  "place": "Parc Floral, Paris",
+  "desc": "J’étais responsable photo du Salon de la Pâtisserie 2024. Je coordonnais toute l’équipe, les stands, les produits, les conférences. Un vrai travail de gestion, d’observation et d’organisation.",
+  "link": null,
+  "cover": {
+   "src": "/photos/corporate/salon-de-la-patisserie/COVER__SDP-2-scaled.jpg",
+   "w": 1600,
+   "h": 1067,
+   "o": "l"
+  },
+  "coverAspect": "4/3",
+  "counts": {
+   "portrait": 0,
+   "landscape": 6,
+   "total": 6
+  },
+  "format": "landscape",
+  "images": [
+   {
+    "src": "/photos/corporate/salon-de-la-patisserie/COVER__SDP-2-scaled.jpg",
+    "w": 1600,
+    "h": 1067,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/salon-de-la-patisserie/SDP-1-scaled.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/salon-de-la-patisserie/SDP-3-scaled.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/salon-de-la-patisserie/SDP-4-scaled.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/salon-de-la-patisserie/SDP-5-scaled.jpg",
+    "w": 1600,
+    "h": 1065,
+    "o": "l"
+   },
+   {
+    "src": "/photos/corporate/salon-de-la-patisserie/SDP-6-scaled.jpg",
+    "w": 1600,
+    "h": 1067,
+    "o": "l"
+   }
+  ],
+  "hidden": true
+ },
+ {
+  "slug": "italie",
+  "category": "lifestyle",
+  "title": "Italie",
+  "label": "ITALIE",
+  "year": "2024",
+  "date": "Juin 2024",
+  "place": "Italie",
+  "desc": "Un voyage personnel en Italie, juste pour explorer, photographier et ressentir. Parfois, créer sans objectif est la meilleure façon de progresser.",
+  "link": null,
+  "cover": {
+   "src": "/photos/lifestyle/italie/COVER__ITALIE-3.jpg",
+   "w": 1600,
+   "h": 809,
+   "o": "l"
+  },
+  "coverAspect": "4/3",
+  "counts": {
+   "portrait": 1,
+   "landscape": 6,
+   "total": 7
+  },
+  "format": "landscape",
+  "images": [
+   {
+    "src": "/photos/lifestyle/italie/COVER__ITALIE-3.jpg",
+    "w": 1600,
+    "h": 809,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/italie/ITALIE-1.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/italie/ITALIE-2.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/italie/ITALIE-4.jpg",
+    "w": 1600,
+    "h": 1198,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/italie/ITALIE-5.jpg",
+    "w": 1600,
+    "h": 2000,
+    "o": "p"
+   },
+   {
+    "src": "/photos/lifestyle/italie/ITALIE-7.jpg",
+    "w": 1600,
+    "h": 900,
+    "o": "l"
+   },
+   {
+    "src": "/photos/lifestyle/italie/ITALIE-8.jpg",
+    "w": 1600,
+    "h": 1280,
+    "o": "l"
+   }
+  ],
+  "hidden": true
+ },
+ {
+  "slug": "monza-shooting",
+  "category": "lifestyle",
+  "title": "Monza",
+  "label": "MONZA",
+  "year": "2025",
+  "date": "2025",
+  "place": "Monza, Italie",
+  "desc": "Shoot photo sur le circuit de Monza, en mettant l’accent sur l’ambiance, les lignes du circuit et la vitesse.",
+  "link": null,
+  "cover": {
+   "src": "/photos/lifestyle/monza-shooting/COVER__Monza-Photo-Profil-4-scaled.jpeg",
+   "w": 1600,
+   "h": 2400,
+   "o": "p"
+  },
+  "coverAspect": "3/4",
+  "counts": {
+   "portrait": 7,
+   "landscape": 0,
+   "total": 7
+  },
+  "format": "portrait",
+  "images": [
+   {
+    "src": "/photos/lifestyle/monza-shooting/COVER__Monza-Photo-Profil-4-scaled.jpeg",
+    "w": 1600,
+    "h": 2400,
+    "o": "p"
+   },
+   {
+    "src": "/photos/lifestyle/monza-shooting/Monza-Photo-Profil-3-scaled.jpeg",
+    "w": 1600,
+    "h": 2400,
+    "o": "p"
+   },
+   {
+    "src": "/photos/lifestyle/monza-shooting/SHOOTING-1.jpg",
+    "w": 1365,
+    "h": 2048,
+    "o": "p"
+   },
+   {
+    "src": "/photos/lifestyle/monza-shooting/SHOOTING-2.jpg",
+    "w": 1365,
+    "h": 2048,
+    "o": "p"
+   },
+   {
+    "src": "/photos/lifestyle/monza-shooting/SHOOTING-3.jpg",
+    "w": 1365,
+    "h": 2048,
+    "o": "p"
+   },
+   {
+    "src": "/photos/lifestyle/monza-shooting/SHOOTING-4.jpg",
+    "w": 1365,
+    "h": 2048,
+    "o": "p"
+   },
+   {
+    "src": "/photos/lifestyle/monza-shooting/SHOOTING-5.jpg",
+    "w": 1365,
+    "h": 2048,
+    "o": "p"
+   }
+  ],
+  "hidden": true
+ }
+]
