@@ -121,6 +121,32 @@ export default function VerticalGallery({
     </div>
   );
 
+  // Mobile : le MÊME texte, mais sorti de la grille pour devenir une SECTION
+  // autonome, à part entière → impossible qu'il se superpose à une image.
+  const aboutMobile = (
+    <section className="border-t border-line-soft px-5 pt-14 pb-16">
+      <p className="t-caps mb-6 text-faint">Qui suis-je</p>
+      <p className="text-[clamp(20px,5.4vw,24px)] leading-snug text-ink">
+        Production photo &amp; drone pour des marques, festivals et agences,
+        en France et à l’international.
+      </p>
+      <p className="mt-6 max-w-md text-[15px] leading-relaxed text-muted">
+        Photographe et opérateur drone certifié, j’interviens sur des projets
+        exigeant précision, réactivité et direction visuelle structurée. Des
+        images claires, cohérentes, adaptées aux besoins de diffusion des
+        artistes et des marques.
+      </p>
+      <div className="mt-8 flex flex-wrap gap-x-8 gap-y-3">
+        <Link href="/travaille" className="t-caps-md link-line text-ink">
+          Comment je travaille&nbsp;→
+        </Link>
+        <Link href="/contact" className="t-caps-md link-line text-ink">
+          Me contacter&nbsp;→
+        </Link>
+      </div>
+    </section>
+  );
+
   const card = (it: GridItem, globalIdx: number) => (
     <div key={it.project.slug + globalIdx} data-reveal className="w-full">
       <ProjectCard
@@ -137,33 +163,38 @@ export default function VerticalGallery({
   );
 
   return (
-    <section ref={wrapRef} className="relative px-2.5 pt-2.5 pb-4">
-      <div className="mx-1.5 mb-3 flex items-baseline justify-between pt-2">
-        <h2 className="t-caps text-muted">La suite du travail</h2>
-        <span className="t-caps text-faint">
-          {String(items.length).padStart(2, "0")} projets
-        </span>
-      </div>
+    <>
+      <section ref={wrapRef} className="relative px-2.5 pt-2.5 pb-4">
+        <div className="mx-1.5 mb-3 flex items-baseline justify-between pt-2">
+          <h2 className="t-caps text-muted">La suite du travail</h2>
+          <span className="t-caps text-faint">
+            {String(items.length).padStart(2, "0")} projets
+          </span>
+        </div>
 
-      {isMobile ? (
-        /* Mobile : ordre séquentiel, une colonne */
-        <div className="flex flex-col gap-2.5">
-          {items.map((it, i) => card(it, startIndex + i))}
-          {aboutBlock}
-        </div>
-      ) : (
-        <div className="grid grid-cols-2 gap-2.5">
-          {/* colonne gauche = 2h + 1v (plus courte) → le bloc texte comble
-              l'écart de hauteur avec la colonne droite (2v + 1h) */}
+        {isMobile ? (
+          /* Mobile : ordre séquentiel, une colonne (le texte est en dessous,
+             dans sa propre section) */
           <div className="flex flex-col gap-2.5">
-            {colA.map((it, i) => card(it, startIndex + i * 2))}
-            {aboutBlock}
+            {items.map((it, i) => card(it, startIndex + i))}
           </div>
-          <div data-col="b" className="mt-[10vh] flex flex-col gap-2.5">
-            {colB.map((it, i) => card(it, startIndex + i * 2 + 1))}
+        ) : (
+          <div className="grid grid-cols-2 gap-2.5">
+            {/* colonne gauche = 2h + 1v (plus courte) → le bloc texte comble
+                l'écart de hauteur avec la colonne droite (2v + 1h) */}
+            <div className="flex flex-col gap-2.5">
+              {colA.map((it, i) => card(it, startIndex + i * 2))}
+              {aboutBlock}
+            </div>
+            <div data-col="b" className="mt-[10vh] flex flex-col gap-2.5">
+              {colB.map((it, i) => card(it, startIndex + i * 2 + 1))}
+            </div>
           </div>
-        </div>
-      )}
-    </section>
+        )}
+      </section>
+
+      {/* Mobile uniquement : le bloc « qui suis-je » en section séparée. */}
+      {isMobile && aboutMobile}
+    </>
   );
 }

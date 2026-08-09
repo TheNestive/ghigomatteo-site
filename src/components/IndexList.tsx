@@ -44,9 +44,12 @@ export default function IndexList({ items }: { items: Project[] }) {
             {
               opacity: 1,
               y: 0,
-              duration: 0.85,
+              duration: 0.7,
               ease: "power3.out",
-              scrollTrigger: { trigger: el, start: "top 94%" },
+              // la ligne se révèle quand son haut atteint ~72% de l'écran
+              // (bas-milieu) → elle finit d'apparaître vers le milieu du
+              // viewport, pas tout en haut.
+              scrollTrigger: { trigger: el, start: "top 72%" },
             }
           );
         });

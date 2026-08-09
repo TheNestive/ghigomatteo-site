@@ -81,6 +81,10 @@ export default function HorizontalGallery({
           scrub: 1,
           invalidateOnRefresh: true,
           anticipatePin: 1,
+          // pin situé AVANT d'autres ScrollTriggers (index) : priorité de
+          // refresh plus haute → leurs positions de départ sont calculées en
+          // tenant compte de l'espace ajouté par ce pin.
+          refreshPriority: 1,
           onUpdate: (self) => {
             if (barRef.current) {
               barRef.current.style.transform = `scaleX(${self.progress})`;
@@ -127,7 +131,10 @@ export default function HorizontalGallery({
       ref={sectionRef}
       id="travail"
       data-header-light
-      className="relative h-[100svh] overflow-hidden"
+      // hauteur DYNAMIQUE (dvh) : suit l'apparition/disparition de la barre
+      // du navigateur mobile → le petit gap du bas reste toujours visible
+      // (svh figeait une hauteur qui débordait quand la barre changeait).
+      className="relative h-[100dvh] overflow-hidden"
     >
       <h1 className="sr-only">Ghigo Matteo · Photographe</h1>
 
@@ -135,7 +142,9 @@ export default function HorizontalGallery({
           flotte par-dessus */}
       <div
         ref={trackRef}
-        className="flex h-full items-stretch gap-2.5 p-2.5 will-change-transform"
+        // mobile : cartes calées EN HAUT (leur hauteur est fixée en dvh, pas
+        // étirée sur la section épinglée) ; desktop : étirées sur la hauteur.
+        className="flex h-full items-start gap-2.5 p-2.5 will-change-transform md:items-stretch"
         style={
           { "--card-w": "calc((100vw - 40px) / 3)" } as React.CSSProperties
         }
@@ -149,9 +158,11 @@ export default function HorizontalGallery({
             aspect="3/4"
             preferCover
             sizes="(max-width: 768px) 84vw, 34vw"
-            // mobile : quasi pleine largeur + pleine hauteur (image recadrée),
-            // petit aperçu de la suivante pour inviter au swipe ; desktop : 3 cartes
-            className="h-full w-[90vw] md:w-[var(--card-w)]"
+            // mobile : hauteur calée sur le viewport DYNAMIQUE (dvh) moins le
+            // gap haut+bas (2×10px) → vrai bloc, gap identique sur les 4 côtés
+            // et JAMAIS de débordement bas, même quand la barre du navigateur
+            // apparaît/disparaît. desktop : pleine hauteur (3 cartes).
+            className="h-[calc(100dvh-1.25rem)] w-[90vw] md:h-full md:w-[var(--card-w)]"
           />
         ))}
       </div>
