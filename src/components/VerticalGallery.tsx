@@ -98,7 +98,7 @@ export default function VerticalGallery({
   // Mobile : filet de séparation + marge → clairement « à part », pas collé à
   // la dernière photo. Desktop : intégré dans la colonne (pas de filet).
   const aboutBlock = (
-    <div className="mt-3 flex flex-col justify-center border-t border-line-soft px-1.5 pt-12 pb-10 md:mt-0 md:min-h-[60vh] md:max-w-lg md:border-0 md:px-6 md:py-10">
+    <div className="mt-8 flex flex-col justify-center border-t border-line-soft px-1.5 pt-16 pb-10 md:mt-0 md:min-h-[60vh] md:max-w-lg md:border-0 md:px-6 md:py-10">
       <p className="t-caps mb-6 text-faint">Qui suis-je</p>
       <p className="text-[clamp(19px,2vw,26px)] leading-snug text-ink">
         Production photo &amp; drone pour des marques, festivals et

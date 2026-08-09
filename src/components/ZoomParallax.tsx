@@ -180,12 +180,15 @@ export default function ZoomParallax() {
     return (
       <div
         ref={wrapRef}
-        className="flex min-h-[70vh] items-center justify-center px-2.5 py-10"
+        className="flex items-center justify-center px-2.5 py-8"
       >
         <div
           data-zoom-mobile
           className="relative w-full overflow-hidden rounded-lg"
-          style={{ aspectRatio: String(center.aspect) }}
+          // ⚠️ IMAGES[0] n'a pas de `aspect` (côté desktop il utilise h:100vh) →
+          // sur mobile on fixe le ratio réel de l'image (1920×1080 = 16/9),
+          // sinon le cadre s'écrase à 0px de haut = une grosse bande vide.
+          style={{ aspectRatio: "16 / 9" }}
         >
           <Image
             src={center.src}
