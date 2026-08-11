@@ -4,11 +4,11 @@ import { buildMetadata } from "@/lib/seo";
 import { getDict } from "@/i18n/dict";
 
 export const metadata: Metadata = buildMetadata({
-  ...getDict("fr").meta.drone,
+  ...getDict("en").meta.drone,
   path: "/drone",
-  locale: "fr",
+  locale: "en",
 });
 
-export default function DronePage() {
-  return <DroneContent locale="fr" />;
+export default function DronePageEn() {
+  return <DroneContent locale="en" />;
 }

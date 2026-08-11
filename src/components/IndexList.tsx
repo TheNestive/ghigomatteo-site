@@ -7,17 +7,26 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import {
-  CATEGORY_LABELS,
   INDEX_COLLAPSED,
   pad,
   type Project,
 } from "@/data/projects";
+import { localizePath, type Locale } from "@/i18n/config";
+import { getDict } from "@/i18n/dict";
 
 /**
  * Index complet des projets : lignes typographiques,
  * aperçu de la cover qui suit le curseur au survol.
  */
-export default function IndexList({ items }: { items: Project[] }) {
+export default function IndexList({
+  items,
+  locale = "fr",
+}: {
+  items: Project[];
+  locale?: Locale;
+}) {
+  const t = getDict(locale);
+  const cat = t.common.categories;
   const [active, setActive] = useState<Project | null>(null);
   const [expanded, setExpanded] = useState(false);
   const previewRef = useRef<HTMLDivElement>(null);
@@ -72,7 +81,7 @@ export default function IndexList({ items }: { items: Project[] }) {
       onMouseMove={onMove}
     >
       <div className="mb-12 flex items-baseline justify-between border-t border-line-soft pt-5">
-        <h2 className="t-caps-md text-ink">Index · Tous les projets</h2>
+        <h2 className="t-caps-md text-ink">{t.index.title}</h2>
         <span className="t-caps text-faint">
           {String(items.length).padStart(2, "0")}
         </span>
@@ -82,7 +91,7 @@ export default function IndexList({ items }: { items: Project[] }) {
         {visible.map((p, i) => (
           <li key={p.slug} data-index-row>
             <Link
-              href={`/projets/${p.slug}`}
+              href={localizePath(`/projets/${p.slug}`, locale)}
               className="group flex items-baseline gap-4 border-b border-line-soft py-4 transition-colors hover:border-line md:gap-8"
               onMouseEnter={() => setActive(p)}
               onMouseLeave={() => setActive(null)}
@@ -94,7 +103,7 @@ export default function IndexList({ items }: { items: Project[] }) {
                 {p.title}
               </span>
               <span className="t-hud hidden shrink-0 text-faint md:ml-auto md:inline">
-                {CATEGORY_LABELS[p.category].toUpperCase()}
+                {cat[p.category].toUpperCase()}
               </span>
               <span className="t-hud ml-auto w-20 shrink-0 text-right text-muted md:ml-0">
                 {p.year}
@@ -115,9 +124,7 @@ export default function IndexList({ items }: { items: Project[] }) {
             }}
             className="t-caps-md cursor-pointer rounded-md border border-line px-8 py-3.5 text-ink transition-colors hover:border-red hover:text-red"
           >
-            {expanded
-              ? "VOIR MOINS ↑"
-              : `VOIR PLUS · ${hiddenCount} AUTRES PROJETS ↓`}
+            {expanded ? t.index.seeLess : t.index.seeMore(hiddenCount)}
           </button>
         </div>
       )}

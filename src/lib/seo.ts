@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import type { Project } from "@/data/projects";
+import { localizePath, type Locale } from "@/i18n/config";
 
 export type OgImage = {
   url: string;
@@ -23,6 +24,12 @@ export const DEFAULT_TITLE =
   "Ghigo Matteo · Photographe événementiel, corporate & drone";
 export const DEFAULT_DESCRIPTION =
   "Matteo Ghigo, photographe et télépilote drone basé à Paris. Production photo et vidéo pour festivals, artistes, marques et agences, en France et à l'international.";
+
+/** Équivalents anglais (utilisés par le layout /en et les métadonnées EN). */
+export const DEFAULT_TITLE_EN =
+  "Ghigo Matteo · Event, corporate & drone photographer";
+export const DEFAULT_DESCRIPTION_EN =
+  "Matteo Ghigo, photographer and licensed drone pilot based in Paris. Photo and video production for festivals, artists, brands and agencies, in France and worldwide.";
 
 /** image de partage par défaut : le mainstage de Tomorrowland Winter (16:9). */
 export const DEFAULT_OG_IMAGE: OgImage = {
@@ -53,8 +60,10 @@ export function absoluteUrl(path: string): string {
 }
 
 /* ------------------------------------------------------------------ *
- * Métadonnées d'une page (title via template, description, canonical,
- * Open Graph + Twitter card cohérents). `titleAbsolute` pour l'accueil.
+ * Métadonnées d'une page. `path` = chemin NEUTRE (sans préfixe de
+ * locale, ex. "/drone"). `locale` détermine le canonical localisé, la
+ * locale Open Graph et les alternates hreflang (fr-FR, en, x-default).
+ * `titleAbsolute` pour l'accueil.
  * ------------------------------------------------------------------ */
 export function buildMetadata(opts: {
   title: string;
@@ -62,8 +71,19 @@ export function buildMetadata(opts: {
   path: string;
   images?: OgImage[];
   titleAbsolute?: boolean;
+  locale?: Locale;
 }): Metadata {
-  const { title, description, path, images, titleAbsolute } = opts;
+  const {
+    title,
+    description,
+    path,
+    images,
+    titleAbsolute,
+    locale = "fr",
+  } = opts;
+  const canonical = localizePath(path, locale);
+  const frPath = localizePath(path, "fr");
+  const enPath = localizePath(path, "en");
   const ogTitle = titleAbsolute ? title : `${title} · ${SITE_NAME}`;
   const ogImages = (images ?? [DEFAULT_OG_IMAGE]).map((i) => ({
     url: i.url,
@@ -75,12 +95,19 @@ export function buildMetadata(opts: {
   return {
     title: titleAbsolute ? { absolute: title } : title,
     description,
-    alternates: { canonical: path },
+    alternates: {
+      canonical,
+      languages: {
+        "fr-FR": frPath,
+        en: enPath,
+        "x-default": frPath,
+      },
+    },
     openGraph: {
       type: "website",
       siteName: SITE_NAME,
-      locale: "fr_FR",
-      url: path,
+      locale: locale === "en" ? "en_US" : "fr_FR",
+      url: canonical,
       title: ogTitle,
       description,
       images: ogImages,
@@ -98,9 +125,10 @@ export function buildMetadata(opts: {
  * JSON-LD global : WebSite + Person + ProfessionalService.
  * Injecté dans le layout, donc présent sur toutes les pages.
  * ------------------------------------------------------------------ */
-export function siteJsonLd() {
+export function siteJsonLd(locale: Locale = "fr") {
   const personId = `${SITE_URL}/#person`;
   const businessId = `${SITE_URL}/#business`;
+  const inLanguage = locale === "en" ? "en" : "fr-FR";
 
   return {
     "@context": "https://schema.org",
@@ -110,7 +138,7 @@ export function siteJsonLd() {
         "@id": `${SITE_URL}/#website`,
         url: SITE_URL,
         name: SITE_NAME,
-        inLanguage: "fr-FR",
+        inLanguage,
         publisher: { "@id": personId },
       },
       {
@@ -171,8 +199,15 @@ export function siteJsonLd() {
  * JSON-LD d'un projet : galerie d'images (+ VideoObject si Vimeo),
  * fil d'Ariane, rattachée à la Person.
  * ------------------------------------------------------------------ */
-export function projectJsonLd(project: Project, slug: string) {
-  const url = absoluteUrl(`/projets/${slug}`);
+export function projectJsonLd(
+  project: Project,
+  slug: string,
+  locale: Locale = "fr"
+) {
+  const url = absoluteUrl(localizePath(`/projets/${slug}`, locale));
+  const homeUrl = absoluteUrl(localizePath("/", locale));
+  const inLanguage = locale === "en" ? "en" : "fr-FR";
+  const homeName = locale === "en" ? "Home" : "Accueil";
   const graph: Record<string, unknown>[] = [
     {
       "@type": "ImageGallery",
@@ -181,7 +216,7 @@ export function projectJsonLd(project: Project, slug: string) {
       headline: project.title,
       description: project.desc,
       url,
-      inLanguage: "fr-FR",
+      inLanguage,
       datePublished: `${project.year}-01-01`,
       author: { "@id": `${SITE_URL}/#person` },
       ...(project.place
@@ -196,8 +231,8 @@ export function projectJsonLd(project: Project, slug: string) {
         {
           "@type": "ListItem",
           position: 1,
-          name: "Accueil",
-          item: SITE_URL,
+          name: homeName,
+          item: homeUrl,
         },
         {
           "@type": "ListItem",

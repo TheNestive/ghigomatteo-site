@@ -4,12 +4,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { pad, type Img, type Project } from "@/data/projects";
+import { localizePath, type Locale } from "@/i18n/config";
 
 const MAX_SLIDES = 8;
 
 interface Props {
   project: Project;
   index: number;
+  /** locale pour localiser le lien vers la page projet */
+  locale?: Locale;
   /** classes de dimensionnement du cadre (hauteur OU largeur) */
   className?: string;
   sizes?: string;
@@ -40,6 +43,7 @@ function pickDisplayCover(project: Project, aspect?: "3/4" | "4/3"): Img {
  */
 export default function ProjectCard({
   project,
+  locale = "fr",
   className = "",
   sizes = "60vw",
   priority = false,
@@ -153,7 +157,7 @@ export default function ProjectCard({
   return (
     <Link
       ref={linkRef}
-      href={`/projets/${project.slug}`}
+      href={localizePath(`/projets/${project.slug}`, locale)}
       data-cursor-media
       className={wrapClass}
       style={{ aspectRatio: ratio }}

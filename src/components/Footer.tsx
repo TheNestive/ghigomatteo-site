@@ -1,6 +1,9 @@
 "use client";
 
 import Image from "next/image";
+import LocaleToggle from "./LocaleToggle";
+import type { Locale } from "@/i18n/config";
+import { getDict } from "@/i18n/dict";
 
 /* logos clients (blancs sur fond transparent → passés en foncé au rendu) */
 const CLIENTS = [
@@ -57,9 +60,10 @@ const mapPos = (lng: number, lat: number) => ({
   top: `${((90 - lat) / 180) * 100}%`,
 });
 
-export default function Footer() {
+export default function Footer({ locale = "fr" }: { locale?: Locale }) {
   const toTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
   const year = new Date().getFullYear();
+  const t = getDict(locale).footer;
 
   return (
     <footer id="contact" className="footer-panel relative overflow-hidden text-ink">
@@ -67,9 +71,7 @@ export default function Footer() {
            droite (~30%). Deux groupes IDENTIQUES → l'animation glisse d'un groupe
            (-50%), boucle continue sans saut ; fondu aux bords. ---- */}
       <div className="flex items-center gap-6 border-b border-line-soft px-5 py-6 md:px-8">
-        <p className="t-caps shrink-0 text-faint">
-          Ils m&apos;ont fait confiance
-        </p>
+        <p className="t-caps shrink-0 text-faint">{t.trusted}</p>
         <div
           className="ml-auto w-[52%] overflow-hidden md:mr-[16%] md:w-[32%]"
           style={{
@@ -112,7 +114,7 @@ export default function Footer() {
         >
           <Image
             src="/photos/evenement/tomorrowland/TML-08.jpg"
-            alt="Mainstage de Tomorrowland en pleine performance, par Ghigo Matteo"
+            alt={t.imageAlt}
             fill
             sizes="(max-width: 768px) 90vw, 240px"
             quality={90}
@@ -123,14 +125,14 @@ export default function Footer() {
         {/* coordonnées */}
         <div className="grid grid-cols-2 gap-x-10 gap-y-8">
           <div>
-            <p className="t-caps mb-2.5 text-faint">Studio</p>
-            <p className="text-[15px] leading-snug text-ink">Paris, France</p>
+            <p className="t-caps mb-2.5 text-faint">{t.studio}</p>
+            <p className="text-[15px] leading-snug text-ink">{t.studioCity}</p>
             <p className="text-[15px] leading-snug text-muted">
-              Itinérance mondiale
+              {t.studioRoam}
             </p>
           </div>
           <div>
-            <p className="t-caps mb-2.5 text-faint">Email</p>
+            <p className="t-caps mb-2.5 text-faint">{t.email}</p>
             <a
               href={`mailto:${EMAIL}`}
               className="link-line text-[15px] break-all text-ink"
@@ -139,12 +141,16 @@ export default function Footer() {
             </a>
           </div>
           <div>
-            <p className="t-caps mb-2.5 text-faint">Disponible</p>
-            <p className="text-[15px] leading-snug text-ink">France · Europe</p>
-            <p className="text-[15px] leading-snug text-ink">Monde entier</p>
+            <p className="t-caps mb-2.5 text-faint">{t.available}</p>
+            <p className="text-[15px] leading-snug text-ink">
+              {t.availableLine1}
+            </p>
+            <p className="text-[15px] leading-snug text-ink">
+              {t.availableLine2}
+            </p>
           </div>
           <div>
-            <p className="t-caps mb-2.5 text-faint">Réseaux</p>
+            <p className="t-caps mb-2.5 text-faint">{t.social}</p>
             <a
               href={INSTAGRAM}
               target="_blank"
@@ -154,14 +160,14 @@ export default function Footer() {
               Instagram @matteo.ghgo&nbsp;↗
             </a>
             <p className="mt-1.5 text-[15px] leading-snug text-muted">
-              Photo · Drone · Vidéo
+              {t.socialSub}
             </p>
           </div>
         </div>
 
         {/* carte du monde en pointillés */}
         <div className="w-full md:w-[320px]">
-          <p className="t-caps mb-4 text-faint">Là où j&apos;ai photographié</p>
+          <p className="t-caps mb-4 text-faint">{t.mapLabel}</p>
           <div className="relative w-full" style={{ aspectRatio: "2 / 1" }}>
             <div
               aria-hidden
@@ -201,22 +207,21 @@ export default function Footer() {
 
       {/* ---- barre légale ---- */}
       <div className="flex flex-col items-start gap-3 border-t border-line-soft px-5 py-5 md:flex-row md:items-center md:justify-between md:px-8">
-        <p className="t-caps text-faint">
-          © {year} Ghigo Matteo · Tous droits réservés
-        </p>
-        <p className="t-caps text-faint">
-          Photographe · Télépilote drone certifié
-        </p>
-        <button
-          type="button"
-          onClick={toTop}
-          className="group/top t-caps flex cursor-pointer items-center gap-2 text-muted transition-colors hover:text-ink"
-        >
-          Retour en haut
-          <span className="transition-transform duration-300 group-hover/top:-translate-y-0.5">
-            ↑
-          </span>
-        </button>
+        <p className="t-caps text-faint">{t.rights(year)}</p>
+        <p className="t-caps text-faint">{t.role}</p>
+        <div className="flex items-center gap-6">
+          <LocaleToggle />
+          <button
+            type="button"
+            onClick={toTop}
+            className="group/top t-caps flex cursor-pointer items-center gap-2 text-muted transition-colors hover:text-ink"
+          >
+            {t.backToTop}
+            <span className="transition-transform duration-300 group-hover/top:-translate-y-0.5">
+              ↑
+            </span>
+          </button>
+        </div>
       </div>
 
       {/* ---- grand wordmark « matteo », en bas à gauche (la descente vide est

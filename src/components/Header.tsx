@@ -3,14 +3,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-
-const NAV_LINKS = [
-  { href: "/#travail", label: "Travail" },
-  { href: "/drone", label: "Drone" },
-  { href: "/travaille", label: "Méthode" },
-  { href: "/lastwork", label: "Dernier projet" },
-  { href: "/contact", label: "Contact" },
-];
+import { localizePath, localeFromPathname } from "@/i18n/config";
+import { getDict } from "@/i18n/dict";
 
 /**
  * Header épuré : nom centré, navigation aux extrémités.
@@ -22,6 +16,17 @@ export default function Header() {
   const ref = useRef<HTMLElement>(null);
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const locale = localeFromPathname(pathname);
+  const t = getDict(locale).header;
+  const lp = (p: string) => localizePath(p, locale);
+  const NAV_LINKS = [
+    { href: lp("/#travail"), label: t.navTravail },
+    { href: lp("/drone"), label: t.navDrone },
+    { href: lp("/travaille"), label: t.navMethode },
+    { href: lp("/lastwork"), label: t.navLastwork },
+    { href: lp("/contact"), label: t.navContact },
+  ];
 
   // ferme le menu à la navigation
   useEffect(() => {
@@ -187,20 +192,20 @@ export default function Header() {
               data-h-cluster
               className="hidden items-center gap-4 md:flex md:gap-6"
             >
-              <Link href="/#travail" className="t-caps-md link-line">
-                Travail
+              <Link href={lp("/#travail")} className="t-caps-md link-line">
+                {t.navTravail}
               </Link>
-              <Link href="/drone" className="t-caps-md link-line">
-                Drone
+              <Link href={lp("/drone")} className="t-caps-md link-line">
+                {t.navDrone}
               </Link>
-              <Link href="/travaille" className="t-caps-md link-line">
-                Méthode
+              <Link href={lp("/travaille")} className="t-caps-md link-line">
+                {t.navMethode}
               </Link>
             </nav>
           </div>
 
           <Link
-            href="/"
+            href={lp("/")}
             data-h-cluster
             className="t-display justify-self-center text-[17px] tracking-[0.14em] transition-opacity hover:opacity-70 md:text-[19px]"
           >
@@ -213,18 +218,18 @@ export default function Header() {
               data-h-cluster
               className="hidden items-center gap-4 md:flex md:gap-6"
             >
-              <Link href="/lastwork" className="t-caps-md link-line">
-                Dernier projet
+              <Link href={lp("/lastwork")} className="t-caps-md link-line">
+                {t.navLastwork}
               </Link>
-              <Link href="/contact" className="t-caps-md link-line">
-                Contact
+              <Link href={lp("/contact")} className="t-caps-md link-line">
+                {t.navContact}
               </Link>
             </nav>
             <button
               type="button"
               data-h-cluster
               onClick={() => setMenuOpen(true)}
-              aria-label="Ouvrir le menu"
+              aria-label={t.openMenu}
               aria-expanded={menuOpen}
               className="flex cursor-pointer flex-col items-end gap-[5px] py-1 md:hidden"
             >
@@ -251,10 +256,10 @@ export default function Header() {
           <button
             type="button"
             onClick={() => setMenuOpen(false)}
-            aria-label="Fermer le menu"
+            aria-label={t.closeMenu}
             className="t-caps-md link-line cursor-pointer text-ink"
           >
-            Fermer
+            {t.close}
           </button>
         </div>
         <nav className="flex flex-1 flex-col justify-center gap-5">

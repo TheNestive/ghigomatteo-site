@@ -7,7 +7,8 @@ import Header from "@/components/Header";
 import Cursor from "@/components/Cursor";
 import IntroLoader from "@/components/IntroLoader";
 import PageTransition from "@/components/PageTransition";
-import JsonLd from "@/components/JsonLd";
+import HtmlLang from "@/components/HtmlLang";
+import GlobalLocaleBar from "@/components/GlobalLocaleBar";
 import {
   SITE_URL,
   SITE_NAME,
@@ -16,7 +17,6 @@ import {
   DEFAULT_DESCRIPTION,
   DEFAULT_OG_IMAGE,
   KEYWORDS,
-  siteJsonLd,
 } from "@/lib/seo";
 
 const manrope = Manrope({
@@ -47,7 +47,14 @@ export const metadata: Metadata = {
   authors: [{ name: PERSON_NAME, url: SITE_URL }],
   creator: PERSON_NAME,
   publisher: PERSON_NAME,
-  alternates: { canonical: "/" },
+  alternates: {
+    canonical: "/",
+    languages: {
+      "fr-FR": "/",
+      en: "/en",
+      "x-default": "/",
+    },
+  },
   openGraph: {
     type: "website",
     siteName: SITE_NAME,
@@ -87,11 +94,12 @@ export default function RootLayout({
       className={`${manrope.variable} ${jetbrains.variable} ${rinter.variable}`}
     >
       <body>
-        <JsonLd data={siteJsonLd()} />
+        <HtmlLang />
         <LenisProvider>
           <IntroLoader />
           <Header />
           {children}
+          <GlobalLocaleBar />
           <PageTransition />
           <Cursor />
         </LenisProvider>

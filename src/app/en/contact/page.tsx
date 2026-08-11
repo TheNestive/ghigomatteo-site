@@ -4,11 +4,11 @@ import { buildMetadata } from "@/lib/seo";
 import { getDict } from "@/i18n/dict";
 
 export const metadata: Metadata = buildMetadata({
-  ...getDict("fr").meta.contact,
+  ...getDict("en").meta.contact,
   path: "/contact",
-  locale: "fr",
+  locale: "en",
 });
 
-export default function ContactPage() {
-  return <ContactContent locale="fr" />;
+export default function ContactPageEn() {
+  return <ContactContent locale="en" />;
 }

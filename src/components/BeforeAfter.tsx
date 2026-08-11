@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import { useRef, useState } from "react";
+import type { Locale } from "@/i18n/config";
+import { getDict } from "@/i18n/dict";
 
 /**
  * Comparateur avant / après : on fait glisser la poignée pour révéler
@@ -12,12 +14,15 @@ export default function BeforeAfter({
   after,
   aspect = "3 / 4",
   sizes = "60vw",
+  locale = "fr",
 }: {
   before: string;
   after: string;
   aspect?: string;
   sizes?: string;
+  locale?: Locale;
 }) {
+  const t = getDict(locale).travaille;
   const [pos, setPos] = useState(50);
   const ref = useRef<HTMLDivElement>(null);
   const dragging = useRef(false);
@@ -46,7 +51,7 @@ export default function BeforeAfter({
       {/* Après (fond) */}
       <Image
         src={after}
-        alt="Après retouche"
+        alt={t.afterAlt}
         fill
         sizes={sizes}
         quality={90}
@@ -59,7 +64,7 @@ export default function BeforeAfter({
       >
         <Image
           src={before}
-          alt="Avant retouche"
+          alt={t.beforeAlt}
           fill
           sizes={sizes}
           quality={90}
@@ -81,13 +86,13 @@ export default function BeforeAfter({
         className="t-caps absolute top-3 left-3.5 z-2 text-white"
         style={{ textShadow: "0 1px 8px rgba(0,0,0,.5)" }}
       >
-        Avant
+        {t.beforeLabel}
       </span>
       <span
         className="t-caps absolute top-3 right-3.5 z-2 text-white"
         style={{ textShadow: "0 1px 8px rgba(0,0,0,.5)" }}
       >
-        Après
+        {t.afterLabel}
       </span>
     </div>
   );

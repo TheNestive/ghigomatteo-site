@@ -6,6 +6,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import ProjectCard from "./ProjectCard";
 import { pad, type Project } from "@/data/projects";
+import type { Locale } from "@/i18n/config";
+import { getDict } from "@/i18n/dict";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
@@ -15,8 +17,10 @@ gsap.registerPlugin(ScrollTrigger, useGSAP);
  */
 export default function HorizontalGallery({
   featured,
+  locale = "fr",
 }: {
   featured: Project[];
+  locale?: Locale;
 }) {
   const sectionRef = useRef<HTMLElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
@@ -136,7 +140,7 @@ export default function HorizontalGallery({
       // (svh figeait une hauteur qui débordait quand la barre changeait).
       className="relative h-[100dvh] overflow-hidden"
     >
-      <h1 className="sr-only">Ghigo Matteo · Photographe</h1>
+      <h1 className="sr-only">{getDict(locale).home.srHeading}</h1>
 
       {/* pleine hauteur : les images occupent tout l'écran, le header
           flotte par-dessus */}
@@ -154,6 +158,7 @@ export default function HorizontalGallery({
             key={p.slug}
             project={p}
             index={i}
+            locale={locale}
             priority={i < 2}
             aspect="3/4"
             preferCover

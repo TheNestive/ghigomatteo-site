@@ -7,6 +7,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import ProjectCard from "./ProjectCard";
 import type { Project } from "@/data/projects";
+import { localizePath, type Locale } from "@/i18n/config";
+import { getDict } from "@/i18n/dict";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
@@ -25,12 +27,16 @@ export interface GridItem {
 export default function VerticalGallery({
   items,
   startIndex,
+  locale = "fr",
 }: {
   items: GridItem[];
   startIndex: number;
+  locale?: Locale;
 }) {
   const wrapRef = useRef<HTMLElement>(null);
   const [isMobile, setIsMobile] = useState(false);
+  const t = getDict(locale).home;
+  const lp = (p: string) => localizePath(p, locale);
 
   useEffect(() => {
     const mq = window.matchMedia("(max-width: 767px)");
@@ -99,23 +105,19 @@ export default function VerticalGallery({
   // la dernière photo. Desktop : intégré dans la colonne (pas de filet).
   const aboutBlock = (
     <div className="mt-8 flex flex-col justify-center border-t border-line-soft px-1.5 pt-16 pb-10 md:mt-0 md:min-h-[60vh] md:max-w-lg md:border-0 md:px-6 md:py-10">
-      <p className="t-caps mb-6 text-faint">Qui suis-je</p>
+      <p className="t-caps mb-6 text-faint">{t.aboutKicker}</p>
       <p className="text-[clamp(19px,2vw,26px)] leading-snug text-ink">
-        Production photo &amp; drone pour des marques, festivals et
-        agences, en France et à l’international.
+        {t.aboutLead}
       </p>
       <p className="mt-6 max-w-md text-[15px] leading-relaxed text-muted">
-        Photographe et opérateur drone certifié, j’interviens sur des
-        projets exigeant précision, réactivité et direction visuelle
-        structurée. Des images claires, cohérentes, adaptées aux besoins
-        de diffusion des artistes et des marques.
+        {t.aboutBody}
       </p>
       <div className="mt-8 flex flex-wrap gap-x-8 gap-y-3">
-        <Link href="/travaille" className="t-caps-md link-line text-ink">
-          Comment je travaille&nbsp;→
+        <Link href={lp("/travaille")} className="t-caps-md link-line text-ink">
+          {t.howIWork}
         </Link>
-        <Link href="/contact" className="t-caps-md link-line text-ink">
-          Me contacter&nbsp;→
+        <Link href={lp("/contact")} className="t-caps-md link-line text-ink">
+          {t.contactMe}
         </Link>
       </div>
     </div>
@@ -125,23 +127,19 @@ export default function VerticalGallery({
   // autonome, à part entière → impossible qu'il se superpose à une image.
   const aboutMobile = (
     <section className="border-t border-line-soft px-5 pt-14 pb-16">
-      <p className="t-caps mb-6 text-faint">Qui suis-je</p>
+      <p className="t-caps mb-6 text-faint">{t.aboutKicker}</p>
       <p className="text-[clamp(20px,5.4vw,24px)] leading-snug text-ink">
-        Production photo &amp; drone pour des marques, festivals et agences,
-        en France et à l’international.
+        {t.aboutLead}
       </p>
       <p className="mt-6 max-w-md text-[15px] leading-relaxed text-muted">
-        Photographe et opérateur drone certifié, j’interviens sur des projets
-        exigeant précision, réactivité et direction visuelle structurée. Des
-        images claires, cohérentes, adaptées aux besoins de diffusion des
-        artistes et des marques.
+        {t.aboutBody}
       </p>
       <div className="mt-8 flex flex-wrap gap-x-8 gap-y-3">
-        <Link href="/travaille" className="t-caps-md link-line text-ink">
-          Comment je travaille&nbsp;→
+        <Link href={lp("/travaille")} className="t-caps-md link-line text-ink">
+          {t.howIWork}
         </Link>
-        <Link href="/contact" className="t-caps-md link-line text-ink">
-          Me contacter&nbsp;→
+        <Link href={lp("/contact")} className="t-caps-md link-line text-ink">
+          {t.contactMe}
         </Link>
       </div>
     </section>
@@ -166,9 +164,9 @@ export default function VerticalGallery({
     <>
       <section ref={wrapRef} className="relative px-2.5 pt-2.5 pb-4">
         <div className="mx-1.5 mb-3 flex items-baseline justify-between pt-2">
-          <h2 className="t-caps text-muted">La suite du travail</h2>
+          <h2 className="t-caps text-muted">{t.suiteTitle}</h2>
           <span className="t-caps text-faint">
-            {String(items.length).padStart(2, "0")} projets
+            {t.projectsCount(String(items.length).padStart(2, "0"))}
           </span>
         </div>
 

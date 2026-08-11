@@ -4,11 +4,11 @@ import { buildMetadata } from "@/lib/seo";
 import { getDict } from "@/i18n/dict";
 
 export const metadata: Metadata = buildMetadata({
-  ...getDict("fr").meta.travaille,
+  ...getDict("en").meta.travaille,
   path: "/travaille",
-  locale: "fr",
+  locale: "en",
 });
 
-export default function TravaillePage() {
-  return <TravailleContent locale="fr" />;
+export default function TravaillePageEn() {
+  return <TravailleContent locale="en" />;
 }

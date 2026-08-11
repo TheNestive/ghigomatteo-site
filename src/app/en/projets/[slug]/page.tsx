@@ -15,12 +15,12 @@ export async function generateMetadata({
   const projects = await loadPublicProjects();
   const found = projects.find((p) => p.slug === slug);
   if (!found) return {};
-  const project = localizeProject(found, "fr");
+  const project = localizeProject(found, "en");
   return buildMetadata({
     title: project.title,
     description: project.desc.slice(0, 160),
     path: `/projets/${slug}`,
-    locale: "fr",
+    locale: "en",
     images: project.cover?.src
       ? [
           {
@@ -34,11 +34,11 @@ export async function generateMetadata({
   });
 }
 
-export default async function ProjectPage({
+export default async function ProjectPageEn({
   params,
 }: {
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  return <ProjectContent slug={slug} locale="fr" />;
+  return <ProjectContent slug={slug} locale="en" />;
 }

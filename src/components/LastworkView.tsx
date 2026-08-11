@@ -6,6 +6,8 @@ import { useRef } from "react";
 import type { Project } from "@/data/projects";
 import { usePageReveals } from "@/lib/usePageReveals";
 import ContactCta from "./ContactCta";
+import { localizePath, type Locale } from "@/i18n/config";
+import { getDict } from "@/i18n/dict";
 
 /** Sélection d'images pour l'aperçu (une par univers du projet). */
 const TASTE = [
@@ -17,16 +19,24 @@ const TASTE = [
   "/photos/evenement/tomorrowland-winter/01-activations-partenaires/Activation05.webp",
 ];
 
-export default function LastworkView({ project }: { project: Project }) {
+export default function LastworkView({
+  project,
+  locale = "fr",
+}: {
+  project: Project;
+  locale?: Locale;
+}) {
   const rootRef = useRef<HTMLDivElement>(null);
   usePageReveals(rootRef);
+  const t = getDict(locale).lastwork;
+  const projectHref = localizePath(`/projets/${project.slug}`, locale);
 
   return (
     <div ref={rootRef}>
       {/* ---- entête ---- */}
       <section className="px-5 pt-28 pb-12 md:px-8 md:pt-36">
         <p data-fx-crumb className="t-caps mb-8 text-muted">
-          Mon dernier projet
+          {t.crumb}
         </p>
         <h1 className="t-display text-[clamp(30px,7vw,116px)]">
           <span className="-my-[0.12em] block overflow-hidden py-[0.12em]">
@@ -38,15 +48,15 @@ export default function LastworkView({ project }: { project: Project }) {
 
         <div className="mt-12 grid gap-8 border-t border-line-soft pt-8 md:grid-cols-3">
           <div data-fx-lead>
-            <p className="t-caps mb-1.5 text-faint">Date</p>
+            <p className="t-caps mb-1.5 text-faint">{t.dateLabel}</p>
             <p className="t-caps-md text-ink">{project.date}</p>
           </div>
           <div data-fx-lead>
-            <p className="t-caps mb-1.5 text-faint">Lieu</p>
+            <p className="t-caps mb-1.5 text-faint">{t.placeLabel}</p>
             <p className="t-caps-md text-ink">{project.place}</p>
           </div>
           <div data-fx-lead>
-            <p className="t-caps mb-1.5 text-faint">Images</p>
+            <p className="t-caps mb-1.5 text-faint">{t.imagesLabel}</p>
             <p className="t-caps-md text-ink">
               {String(project.counts.total).padStart(2, "0")}
             </p>
@@ -64,7 +74,7 @@ export default function LastworkView({ project }: { project: Project }) {
       {/* ---- hero ---- */}
       <section className="mx-2.5">
         <Link
-          href={`/projets/${project.slug}`}
+          href={projectHref}
           data-cursor-media
           className="group block"
         >
@@ -98,9 +108,9 @@ export default function LastworkView({ project }: { project: Project }) {
       {/* ---- aperçu ---- */}
       <section className="px-2.5 py-20">
         <div className="mx-2.5 mb-10 flex items-baseline justify-between border-t border-line-soft pt-5 md:mx-5">
-          <h2 className="t-caps-md text-ink">Aperçu du projet</h2>
+          <h2 className="t-caps-md text-ink">{t.previewHead}</h2>
           <span className="t-caps text-faint">
-            {String(project.counts.total).padStart(2, "0")} images au total
+            {t.imagesTotal(String(project.counts.total).padStart(2, "0"))}
           </span>
         </div>
 
@@ -108,7 +118,7 @@ export default function LastworkView({ project }: { project: Project }) {
           {TASTE.map((src) => (
             <Link
               key={src}
-              href={`/projets/${project.slug}`}
+              href={projectHref}
               data-reveal
               data-cursor-media
               className="group relative block overflow-hidden rounded-md md:rounded-lg"
@@ -128,15 +138,15 @@ export default function LastworkView({ project }: { project: Project }) {
 
         <div className="mt-12 flex justify-center">
           <Link
-            href={`/projets/${project.slug}`}
+            href={projectHref}
             className="t-caps-md rounded-md border border-ink px-8 py-4 text-ink transition-colors hover:bg-ink hover:text-bg"
           >
-            Découvrir le projet complet&nbsp;→
+            {t.discover}
           </Link>
         </div>
       </section>
 
-      <ContactCta />
+      <ContactCta locale={locale} />
     </div>
   );
 }

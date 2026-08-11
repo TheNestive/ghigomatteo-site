@@ -7,35 +7,29 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import {
-  CATEGORY_LABELS,
   pad,
   type Img,
   type Project,
 } from "@/data/projects";
+import { localizePath, type Locale } from "@/i18n/config";
+import { getDict } from "@/i18n/dict";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
-/* Textes de présentation par section (Tomorrowland), changent selon la
-   bulle sélectionnée. Clé = nom exact du groupe dans les données. */
-const SECTION_TEXTS: Record<string, string> = {
-  "Activations partenaires":
-    "Les espaces de marque et dispositifs partenaires : stands, installations et expériences immersives pensés pour prolonger le festival au-delà des scènes.",
-  "Les scènes":
-    "Architecture, lumière et pyrotechnie : les scènes photographiées comme des décors de cinéma, du lever de rideau au bouquet final.",
-  "Les artistes":
-    "Les artistes en pleine performance, saisis au plus près de l’énergie de la cabine et du lien avec la foule.",
-  "Les festivaliers":
-    "Le public, cœur du festival : regards, tenues et instants de communion sur les pistes enneigées de l’Alpe d’Huez.",
-  "L’atmosphère":
-    "La direction artistique et l’ambiance montagne : neige, brume, néons et détails qui composent l’identité visuelle de l’événement.",
-  "Exemple de set":
-    "Un set complet couvert de bout en bout, une sélection resserrée qui montre le rythme d’un B2B, de la montée à l’apogée.",
-};
+type ProjectDict = ReturnType<typeof getDict>["project"];
 
 /* Vue « global » : image courante centrée en grand, avec un aperçu GRISÉ de
    l'image précédente et suivante qui dépassent à gauche et à droite. Swipe,
    flèches, clavier et clic sur une voisine pour parcourir la série. */
-function GlobalGallery({ images, title }: { images: Img[]; title: string }) {
+function GlobalGallery({
+  images,
+  title,
+  t,
+}: {
+  images: Img[];
+  title: string;
+  t: ProjectDict;
+}) {
   const [idx, setIdx] = useState(0);
   const startX = useRef<number | null>(null);
   const dragged = useRef(false);
@@ -73,7 +67,7 @@ function GlobalGallery({ images, title }: { images: Img[]; title: string }) {
         className="touch-pan-y overflow-hidden outline-none"
         tabIndex={0}
         role="region"
-        aria-label={`Galerie ${title}, image ${pad(idx + 1)} sur ${pad(images.length)}`}
+        aria-label={t.ariaGallery(title, pad(idx + 1), pad(images.length))}
         onKeyDown={(e) => {
           if (e.key === "ArrowRight") go(1);
           if (e.key === "ArrowLeft") go(-1);
@@ -108,7 +102,7 @@ function GlobalGallery({ images, title }: { images: Img[]; title: string }) {
                 type="button"
                 key={img.src}
                 tabIndex={-1}
-                aria-label={`Voir l'image ${pad(i + 1)}`}
+                aria-label={t.ariaViewImage(pad(i + 1))}
                 aria-current={active}
                 onClick={() => {
                   if (dragged.current) return; // ignore le clic après un swipe
@@ -139,7 +133,7 @@ function GlobalGallery({ images, title }: { images: Img[]; title: string }) {
           type="button"
           onClick={() => go(-1)}
           disabled={idx === 0}
-          aria-label="Image précédente"
+          aria-label={t.ariaPrev}
           className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-line text-[15px] text-ink transition-colors hover:border-ink disabled:opacity-25"
         >
           ←
@@ -151,7 +145,7 @@ function GlobalGallery({ images, title }: { images: Img[]; title: string }) {
           type="button"
           onClick={() => go(1)}
           disabled={idx === images.length - 1}
-          aria-label="Image suivante"
+          aria-label={t.ariaNext}
           className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-line text-[15px] text-ink transition-colors hover:border-ink disabled:opacity-25"
         >
           →
@@ -231,13 +225,18 @@ export default function ProjectView({
   index,
   total,
   next,
+  locale = "fr",
 }: {
   project: Project;
   index: number;
   total: number;
   next: Project;
+  locale?: Locale;
 }) {
   const rootRef = useRef<HTMLDivElement>(null);
+  const d = getDict(locale);
+  const t = d.project;
+  const categoryLabels = d.common.categories;
 
   // groupes (Tomorrowland) ou galerie simple
   const grouped = useMemo(() => {
@@ -385,13 +384,13 @@ export default function ProjectView({
           data-pv-crumb
           className="t-caps mb-8 flex items-center gap-4 text-muted"
         >
-          <Link href="/#travail" className="link-line">
-            ← Travail
+          <Link href={localizePath("/#travail", locale)} className="link-line">
+            {t.backWork}
           </Link>
           <span className="text-faint">·</span>
-          Projet {pad(index + 1)} / {pad(total)}
+          {t.projectN(pad(index + 1), pad(total))}
           <span className="text-faint">·</span>
-          {CATEGORY_LABELS[project.category]}
+          {categoryLabels[project.category]}
         </p>
 
         <h1 className="t-display max-w-[15ch] text-[clamp(30px,8.5vw,150px)]">
@@ -407,19 +406,19 @@ export default function ProjectView({
           className="mt-10 grid grid-cols-2 gap-6 border-t border-line-soft pt-6 md:grid-cols-4"
         >
           <div>
-            <p className="t-hud mb-1 text-faint">DATE</p>
+            <p className="t-hud mb-1 text-faint">{t.metaDate}</p>
             <p className="t-hud-md text-ink">{project.date}</p>
           </div>
           <div>
-            <p className="t-hud mb-1 text-faint">LIEU</p>
+            <p className="t-hud mb-1 text-faint">{t.metaPlace}</p>
             <p className="t-hud-md text-ink">{project.place}</p>
           </div>
           <div>
-            <p className="t-hud mb-1 text-faint">IMAGES</p>
+            <p className="t-hud mb-1 text-faint">{t.metaImages}</p>
             <p className="t-hud-md text-ink">{pad(project.counts.total)}</p>
           </div>
           <div>
-            <p className="t-hud mb-1 text-faint">LIEN</p>
+            <p className="t-hud mb-1 text-faint">{t.metaLink}</p>
             {project.link ? (
               <a
                 href={project.link.href}
@@ -485,7 +484,7 @@ export default function ProjectView({
                     className="t-caps-md"
                     style={{ textShadow: "0 1px 10px rgba(0,0,0,.5)" }}
                   >
-                    {project.video.label ?? "Vidéo à venir"}
+                    {project.video.label ?? t.videoComing}
                   </span>
                 </div>
               </>
@@ -502,46 +501,49 @@ export default function ProjectView({
           {hasSections ? (
             <SlideTabs
               items={[
-                { value: "all", label: "Tout" },
-                ...sectionNames.map((n) => ({ value: n, label: n })),
+                { value: "all", label: t.tabAll },
+                ...sectionNames.map((n) => ({
+                  value: n,
+                  label: t.sectionLabels[n] ?? n,
+                })),
               ]}
               value={section}
               onChange={setSection}
               variant="chips"
-              ariaLabel="Sections du reportage"
+              ariaLabel={t.ariaSections}
             />
           ) : (
             <span className="t-caps text-faint">
-              {pad(project.counts.total)} images
+              {t.imagesCount(pad(project.counts.total))}
             </span>
           )}
 
           <SlideTabs
             items={[
-              { value: "mosaique", label: "Mosaïque" },
-              { value: "global", label: "Global" },
+              { value: "mosaique", label: t.tabMosaic },
+              { value: "global", label: t.tabGlobal },
             ]}
             value={view}
             onChange={(v) => setView(v as "mosaique" | "global")}
             variant="segmented"
-            ariaLabel="Format d'affichage"
+            ariaLabel={t.ariaFormat}
           />
         </div>
 
         {/* texte de présentation qui change selon la section choisie */}
-        {hasSections && section !== "all" && SECTION_TEXTS[section] && (
+        {hasSections && section !== "all" && t.sectionTexts[section] && (
           <p
             key={section}
             data-section-text
             className="mb-8 max-w-2xl px-1.5 text-[15px] leading-relaxed text-muted"
           >
-            {SECTION_TEXTS[section]}
+            {t.sectionTexts[section]}
           </p>
         )}
 
         <div ref={galleryRef} className="flex flex-col gap-2.5">
           {view === "global" ? (
-            <GlobalGallery images={activeImages} title={project.title} />
+            <GlobalGallery images={activeImages} title={project.title} t={t} />
           ) : (
             <MosaicGallery
               images={activeImages}
@@ -556,10 +558,10 @@ export default function ProjectView({
       {/* ---- projet suivant ---- */}
       {/* projet suivant, texte seul (pas d'image de fond) */}
       <Link
-        href={`/projets/${next.slug}`}
+        href={localizePath(`/projets/${next.slug}`, locale)}
         className="group block border-t border-line-soft px-5 py-20 md:px-8"
       >
-        <p className="t-caps-md mb-5 text-muted">Projet suivant</p>
+        <p className="t-caps-md mb-5 text-muted">{t.nextProject}</p>
         <p className="t-display text-[clamp(40px,7.5vw,120px)] text-ink transition-colors group-hover:text-red">
           {next.title}&nbsp;→
         </p>

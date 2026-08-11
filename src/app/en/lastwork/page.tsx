@@ -6,11 +6,11 @@ import { getDict } from "@/i18n/dict";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = buildMetadata({
-  ...getDict("fr").meta.lastwork,
+  ...getDict("en").meta.lastwork,
   path: "/lastwork",
-  locale: "fr",
+  locale: "en",
 });
 
-export default function LastworkPage() {
-  return <LastworkContent locale="fr" />;
+export default function LastworkPageEn() {
+  return <LastworkContent locale="en" />;
 }

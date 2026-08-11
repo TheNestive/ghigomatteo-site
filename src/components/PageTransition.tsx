@@ -3,23 +3,20 @@
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useRef } from "react";
 import projectsData from "@/data/projects.json";
+import { localeFromPathname, stripLocale } from "@/i18n/config";
+import { getDict } from "@/i18n/dict";
 
 const DURATION = 680;
 const EASE = "cubic-bezier(0.76, 0, 0.24, 1)";
 
-const STATIC_LABELS: Record<string, string> = {
-  "/": "Accueil",
-  "/drone": "Drone",
-  "/travaille": "Méthode",
-  "/lastwork": "Dernier projet",
-  "/contact": "Contact",
-};
-
 /** Nom lisible de la destination affiché au centre du voile. */
 function destinationLabel(href: string): string {
   const path = href.split("#")[0] || "/";
-  if (STATIC_LABELS[path]) return STATIC_LABELS[path];
-  const m = path.match(/^\/projets\/(.+)$/);
+  const locale = localeFromPathname(path);
+  const neutral = stripLocale(path);
+  const labels = getDict(locale).transition.labels;
+  if (labels[neutral]) return labels[neutral];
+  const m = neutral.match(/^\/projets\/(.+)$/);
   if (m) {
     const p = (projectsData as { slug: string; title: string }[]).find(
       (x) => x.slug === m[1]
