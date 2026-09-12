@@ -1288,7 +1288,8 @@
    "landscape": 0,
    "total": 7
   },
-  "format": "portrait"
+  "format": "portrait",
+  "band": 5
  },
  {
   "slug": "inherent-mike-horn",
@@ -3727,8 +3728,7 @@
    "w": 1080,
    "h": 1350,
    "o": "p"
-  },
-  "band": 5
+  }
  },
  {
   "slug": "plk",
