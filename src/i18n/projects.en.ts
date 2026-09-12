@@ -140,6 +140,22 @@ export const projectsEn: Record<string, ProjectEn> = {
     date: "2025",
     place: "Monza, Italy",
   },
+  "hello-fresh-ffbb": {
+    desc: "HelloFresh x FFBB: a brand activation where cooking meets basketball. I covered the event end to end, from the set design to the workshops, from the guests to the product details, to deliver a consistent series, ready to use across every one of the brand’s channels.",
+    date: "2026",
+  },
+  "kalash-criminel": {
+    desc: "Kalash Criminel at Golden Coast. Balaclava, printed jersey and Congolese flag: a raw stage presence that I framed as tightly as possible to keep all the tension of the live show.",
+    date: "2026",
+  },
+  macklemore: {
+    desc: "Macklemore at Golden Coast. Columns of flame, broad washes of light and wide, sweeping gestures: a show built for the image, where every track tips the mood of the frame.",
+    date: "2026",
+  },
+  plk: {
+    desc: "PLK at Golden Coast. Flame jets, tight beams and plenty of haze: a highly graphic stage design, perfect for working silhouettes and backlight.",
+    date: "2026",
+  },
 };
 
 /**
