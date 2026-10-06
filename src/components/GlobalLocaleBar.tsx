@@ -11,7 +11,12 @@ import LocaleToggle from "./LocaleToggle";
 export default function GlobalLocaleBar() {
   const pathname = usePathname() || "/";
   const neutral = stripLocale(pathname);
-  if (neutral === "/" || neutral.startsWith("/admin")) return null;
+  if (
+    neutral === "/" ||
+    neutral.startsWith("/admin") ||
+    neutral.startsWith("/proposition")
+  )
+    return null;
 
   return (
     <div className="footer-panel flex justify-center border-t border-line-soft px-5 py-8 md:px-8">
