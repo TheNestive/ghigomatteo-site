@@ -29,10 +29,10 @@ const EVENTS = [
 
 /* Ce que couvre une soirée : artistes, scène, public, ambiance, scénographie… */
 const COVERAGE = [
-  { src: "/photos/evenement/garorock/COVER__GAROROCK-1-scaled.jpg", alt: "Artiste" },
-  { src: "/photos/evenement/garorock/GARO3-1.jpg", alt: "Public" },
-  { src: "/photos/evenement/garorock/GARO3-6.jpg", alt: "Scénographie" },
-  { src: "/photos/evenement/garorock/GARO3-18.jpg", alt: "Ambiance" },
+  { src: "/photos/evenement/theodora/THEODORA-01.jpg", alt: "Theodora" },
+  { src: "/photos/evenement/macklemore/macklemore-02.jpg", alt: "Macklemore" },
+  { src: "/photos/evenement/tomorrowland/TML-02.jpg", alt: "Tomorrowland" },
+  { src: "/photos/evenement/kalash-criminel/kalash-05.jpg", alt: "Kalash Criminel" },
 ];
 
 const pad = (i: number) => String(i + 1).padStart(2, "0");
@@ -130,7 +130,7 @@ export default function PropositionView() {
                 className="mx-auto max-w-[1180px] px-5 pb-8 text-white md:px-8 md:pb-12"
                 style={{
                   textShadow:
-                    "0 1px 3px rgba(0,0,0,.55), 0 2px 20px rgba(0,0,0,.45)",
+                    "0 1px 2px rgba(0,0,0,.22)",
                 }}
               >
                 <p data-fx-crumb className="t-caps mb-6 text-white">
