@@ -32,7 +32,7 @@ const COVERAGE = [
   { src: "/photos/evenement/theodora/THEODORA-01.jpg", alt: "Theodora" },
   { src: "/photos/evenement/macklemore/macklemore-02.jpg", alt: "Macklemore" },
   { src: "/photos/evenement/tomorrowland/TML-02.jpg", alt: "Tomorrowland" },
-  { src: "/photos/evenement/kalash-criminel/kalash-05.jpg", alt: "Kalash Criminel" },
+  { src: "/site/proposition/flammes.jpg", alt: "Artiste sur scène devant des flammes" },
 ];
 
 const pad = (i: number) => String(i + 1).padStart(2, "0");
