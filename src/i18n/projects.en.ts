@@ -156,6 +156,10 @@ export const projectsEn: Record<string, ProjectEn> = {
     desc: "PLK at Golden Coast. Flame jets, tight beams and plenty of haze: a highly graphic stage design, perfect for working silhouettes and backlight.",
     date: "2026",
   },
+  "histoire-d-or": {
+    desc: "Histoire d’Or was celebrating its 40th anniversary: a birthday evening that brought together influencers and faces of the brand, including Léna Mahfouf. I covered the photocall and the atmosphere of the night, between mirrored set design, disco balls and the house’s jewellery, to deliver an elegant series ready for the brand to share.",
+    date: "2026",
+  },
 };
 
 /**

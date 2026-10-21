@@ -325,7 +325,7 @@ export default function AdminPage() {
         <strong className="text-ink">Bande</strong> et{" "}
         <strong className="text-ink">grille</strong> = des sélections : marque
         un projet avec <span className="text-ink">B</span> /{" "}
-        <span className="text-ink">G</span> dans l&apos;index (6 max chacune),
+        <span className="text-ink">G</span> dans l&apos;index ({FEATURED_COUNT} max en bande, {GRID_COUNT} en grille),
         réordonne-les avec ↑↓. L&apos;<strong className="text-ink">index</strong>{" "}
         du bas suit l&apos;ordre de la liste (↑↓), indépendamment de la bande.
         L&apos;œil <span className="text-ink">●</span>/
@@ -486,7 +486,7 @@ export default function AdminPage() {
                         p.band != null
                           ? "Dans la bande · cliquer pour retirer"
                           : bandFull
-                            ? "Bande pleine (6)"
+                            ? `Bande pleine (${FEATURED_COUNT})`
                             : "Ajouter à la bande d'accueil"
                       }
                       className={`t-hud shrink-0 cursor-pointer rounded-sm border px-1 disabled:opacity-25 ${

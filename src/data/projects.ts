@@ -47,7 +47,7 @@ export interface Project {
 }
 
 /** Nombre de projets dans la bande horizontale d'accueil. */
-export const FEATURED_COUNT = 6;
+export const FEATURED_COUNT = 7;
 /** Nombre de projets dans la grille verticale « La suite du travail ». */
 export const GRID_COUNT = 6;
 /** Lignes visibles de l'index avant le bouton « Voir plus ». */
