@@ -8,7 +8,7 @@ import JsonLd from "@/components/JsonLd";
 import { siteJsonLd } from "@/lib/seo";
 import type { Locale } from "@/i18n/config";
 
-const BAND_COUNT = 6;
+const BAND_COUNT = 7;
 const GRID_COUNT = 6;
 // motif d'orientation de la grille (quinconce) : colonne gauche = slots
 // 0,2,4 → 2 paysages + 1 portrait ; colonne droite = slots 1,3,5 → 2

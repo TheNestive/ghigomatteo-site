@@ -3624,18 +3624,12 @@
   "desc": "Macklemore au Golden Coast. Colonnes de flammes, grands aplats de lumière et une gestuelle très large : un show taillé pour l’image, où chaque titre fait basculer l’ambiance du cadre.",
   "link": null,
   "cover": {
-   "src": "/photos/evenement/macklemore/macklemore-04.jpg",
+   "src": "/photos/evenement/macklemore/macklemore-02.jpg",
    "w": 1080,
    "h": 1350,
    "o": "p"
   },
   "images": [
-   {
-    "src": "/photos/evenement/macklemore/macklemore-01.jpg",
-    "w": 1080,
-    "h": 1350,
-    "o": "p"
-   },
    {
     "src": "/photos/evenement/macklemore/macklemore-02.jpg",
     "w": 1080,
@@ -3643,13 +3637,19 @@
     "o": "p"
    },
    {
-    "src": "/photos/evenement/macklemore/macklemore-03.jpg",
+    "src": "/photos/evenement/macklemore/macklemore-01.jpg",
     "w": 1080,
     "h": 1350,
     "o": "p"
    },
    {
     "src": "/photos/evenement/macklemore/macklemore-04.jpg",
+    "w": 1080,
+    "h": 1350,
+    "o": "p"
+   },
+   {
+    "src": "/photos/evenement/macklemore/macklemore-03.jpg",
     "w": 1080,
     "h": 1350,
     "o": "p"
@@ -3667,7 +3667,7 @@
     "o": "p"
    },
    {
-    "src": "/photos/evenement/macklemore/macklemore-07.jpg",
+    "src": "/photos/evenement/macklemore/macklemore-14.jpg",
     "w": 1080,
     "h": 1350,
     "o": "p"
@@ -3709,7 +3709,7 @@
     "o": "p"
    },
    {
-    "src": "/photos/evenement/macklemore/macklemore-14.jpg",
+    "src": "/photos/evenement/macklemore/macklemore-07.jpg",
     "w": 1080,
     "h": 1350,
     "o": "p"
@@ -3835,6 +3835,333 @@
   }
  },
  {
+  "slug": "histoire-d-or",
+  "category": "corporate",
+  "title": "Histoire d'Or",
+  "label": "HISTOIRE D'OR",
+  "year": "2026",
+  "date": "2026",
+  "place": "",
+  "desc": "Histoire d’Or fêtait ses 40 ans : une soirée anniversaire où se sont retrouvés influenceurs et figures de la marque, dont Léna Mahfouf. J’ai couvert le photocall et l’ambiance de la soirée, entre scénographie miroir, boules à facettes et bijoux de la maison, pour livrer une série élégante prête à être diffusée par la marque.",
+  "link": null,
+  "cover": {
+   "src": "/photos/corporate/histoire-d-or/histoiredor-01.jpg",
+   "w": 1067,
+   "h": 1600,
+   "o": "p"
+  },
+  "images": [
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-01.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-02.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-03.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-04.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-05.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-06.jpg",
+    "w": 1066,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-07.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-08.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-09.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-10.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-11.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-12.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-13.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-14.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-15.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-16.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-17.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-18.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-19.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-20.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-21.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-22.jpg",
+    "w": 1066,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-23.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-24.jpg",
+    "w": 1066,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-25.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-26.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-27.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-28.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-29.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-30.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-31.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-32.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-33.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-34.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-35.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-36.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-37.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-38.jpg",
+    "w": 1067,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-39.jpg",
+    "w": 1066,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-40.jpg",
+    "w": 1280,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-41.jpg",
+    "w": 1280,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-42.jpg",
+    "w": 1280,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-43.jpg",
+    "w": 1280,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-44.jpg",
+    "w": 1280,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-45.jpg",
+    "w": 1280,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-46.jpg",
+    "w": 1280,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-47.jpg",
+    "w": 1280,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-48.jpg",
+    "w": 1280,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-49.jpg",
+    "w": 1280,
+    "h": 1600,
+    "o": "p"
+   },
+   {
+    "src": "/photos/corporate/histoire-d-or/histoiredor-50.jpg",
+    "w": 1280,
+    "h": 1600,
+    "o": "p"
+   }
+  ],
+  "coverAspect": "3/4",
+  "counts": {
+   "portrait": 50,
+   "landscape": 0,
+   "total": 50
+  },
+  "format": "portrait",
+  "band": 6
+ },
+ {
   "slug": "major-lazer",
   "category": "evenement",
   "title": "Major Lazer",
@@ -3921,7 +4248,7 @@
     "o": "l"
    }
   ],
-  "band": 6,
+  "band": 7,
   "hidden": true
  },
  {
